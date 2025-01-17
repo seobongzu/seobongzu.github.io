@@ -9,13 +9,13 @@ layout: default
             <a href="{{ post.url | relative_url }}">[{{ post.title | escape }}]</a>
         </li>
         {% endfor %}
-        <li id="no-results-message" style="display: none;">X</li>
+        <li id="no-results-message" style="display: none;">No results found ...</li>
     </ul>
 </section>
 
 <script>
     const searchQuery = localStorage.getItem('searchQuery') || '';
-    document.getElementById('search-query').innerHTML = `<span class="highlight-query">[${searchQuery}]</span>&nbsp;☞`;
+    document.getElementById('search-query').innerHTML = `<span class="highlight-query">[${searchQuery}]</span>&nbsp;:`;
 
     function removeSpaces(text) {
         return text.replace(/\s+/g, '').toLowerCase();
