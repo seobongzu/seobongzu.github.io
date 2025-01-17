@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>seobongzu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="seobongzu">
+    <meta name="description" content="seobongzu's repository">
+    <meta name="keywords" content="rimworld, mod, modding, unity, seobongzu, 림월드, 모드, 모딩, 유니티, 서봉주">
+    <meta name="color-scheme" content="light dark">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="seobongzu">
+    <meta property="og:image" content="https://github.com/seobongzu/test/blob/main/00005_2.PNG?raw=true">
+    <meta property="og:title" content="seobongzu">
+    <meta property="og:description" content="seobongzu's repository">
+    <link rel="canonical" href="{{ site.url }}">
+    <link rel="icon" type="image/ico" sizes="32x32" href="/assets/favicons/favicon-32x32.ico">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicons/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicons/favicon-512x512.png">
+    <link rel="stylesheet" href="https://seobongzu.github.io/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>seobongzu</h1>
+        <a href="{{ site.baseurl }}/">
+            <img id="logo-img" src="https://i.imgur.com/dS9aA0w.png" alt="logo-image" class="logo">
+        </a>
+        <input type="search" class="search" placeholder="seobongzu" aria-label="search-input" id="search-input" autocomplete="off" spellcheck="false">
+        <nav aria-label="category-list" class="category-list">
+                <ul>
+                    <li><a href="{{ "/about/" | relative_url}}" class="{% if page.category == 'about' %}active{% endif %}">[about]</a></li>
+                    <li><a href="{{ "/rimworld/" | relative_url}}" class="{% if page.category == 'rimworld' %}active{% endif %}">[rimworld]</a></li>
+                    <button id="dark-mode-toggle">[◑]</button>
+                </ul>
+        </nav>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+    
+    <footer class="copyright">&copy; 2025 seobongzu</footer>
+    <script src="{{ site.baseurl }}/script.js"></script>
+</body>
+
+</html>

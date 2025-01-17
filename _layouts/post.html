@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<section class="article">
+    <article aria-label="article">
+        <header class="article-header">{{ page.title }}</header>
+        <div class="content">{{ content }}</div>
+    </article>
+</section>
+<section class="contents-list">
+    <ul aria-label="contents-list">
+        {% assign current_category = page.category %}
+        {% for post in site.posts %}
+        {% if post.categories contains current_category and post.title != page.title %}
+        <li>
+            <a href="{{ post.url | relative_url }}">[{{ post.title }}]</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</section>
