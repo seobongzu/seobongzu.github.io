@@ -17,5 +17,4 @@ Due to this simple mechanism, if you somehow manage to boost a colonist's joy to
 <br>
 Since this mod only affects joy gain and decay, it naturally works with various recreation-adding mods. Having diverse recreation options would make things more interesting and visually appealing. If I have time, I'd like to make recreation or musical instrument mods for this mod. I'm thinking about things like gym equipment or band instruments, but I'm not very confident in texture creation, so I'm not sure when I'll make them.  
 <br>
-I also considered excluding recreation-enjoying pawns from the idle list but decided it wasn't that important. Thanks to Xercaine's mod, I was finally able to complete the mod I'd always dreamed of. At last, my large colony has gained a natural vitality.  
-<br>
+I also considered excluding recreation-enjoying pawns from the idle list but decided it wasn't that important. Thanks to Xercaine's mod, I was finally able to complete the mod I'd always dreamed of. At last, my large colony has gained a natural vitality.
