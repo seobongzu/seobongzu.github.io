@@ -17,4 +17,5 @@ If a colonist's joy somehow reaches 100%, they might briefly wander. To prevent 
 <br>
 The mod only affects joy gain and decay, so it works with any recreation-adding mods. If I have time, I'd like to make recreation or musical instrument mods for this mod. I'm thinking about gym equipment or band instruments, but I'm not confident in texture creation, so I'm not sure when I'll make them.  
 <br>
-Thanks to Xercaine's mod, I was finally able to complete the mod I'd always dreamed of. My large colony now has a natural vitality.
+Thanks to Xercaine's mod, I was finally able to complete the mod I'd always dreamed of. My large colony now has a natural vitality.  
+<br>

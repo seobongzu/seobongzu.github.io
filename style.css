@@ -196,7 +196,7 @@ img {
 .copyright {
     font-size: 0.8rem;
     position: fixed;
-    bottom: 0.6rem;
+    bottom: 0.5rem;
     right: 1rem;
     color: var(--text-color);
     background-color: var(--background-color);
