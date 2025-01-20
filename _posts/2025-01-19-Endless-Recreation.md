@@ -2,7 +2,7 @@
 layout: post
 title: "Endless Recreation"
 date: 2025-01-19
-category: test
+category: rimworld
 ---
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;"><iframe width="1280" height="720" src="https://www.youtube.com/embed/SU4R6RBrG98?si=tTBD9qx3rFLO9Mt2" title="YouTube video player" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-level: -0.1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>></div>
 Two months ago when "Do Recreation When Idle" appeared on the Workshop, I silently shouted "Finally"  
