@@ -27,6 +27,6 @@ The mod only affects joy gain and decay, so it works with any recreation-adding 
 If I have time, I'd like to make recreation or musical instrument mods for this mod.  
 I'm thinking about gym equipment or band instruments, I'm not sure when I'll make them.  
 <br>
-Thanks to Xercaine's mod, I was finally able to complete the mod I'd always dreamed of.  
+Thanks to Xercaine, I was finally able to complete the mod I'd always dreamed of.  
 My large colony now has a natural vitality.  
 <br>
