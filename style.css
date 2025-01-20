@@ -150,6 +150,15 @@ p {
     text-decoration: none;
 }
 
+a {
+    color: var(--current-color);
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: wavy;
+}
+
 a.active {
     color: var(--current-color);
 }
