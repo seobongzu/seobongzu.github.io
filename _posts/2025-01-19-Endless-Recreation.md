@@ -13,7 +13,7 @@ Thanks to publicly shared source code, I learned the basics of Harmony and condu
 <br>
 Here's what I discovered: colonists will seek recreation when idle if their joy is below 90%.  
 If we prevent them from reaching 90%, they will forever seek recreation.  
-Since there's a +10 mood buff at 85% joy, I chose 87% as the threshold (though 87.5% might have been more appropriate).  
+Since there's a +10 mood buff at 85% joy, I chose 87.5% as the threshold.  
 So, This mod reduces joy gain to 1/1000 at 87%.  
 I didn't set it to zero because the arrow (shown in the picture below) would flicker, which might bother perfectionists.  
 <br>
