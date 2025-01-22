@@ -18,11 +18,11 @@ layout: default
     document.getElementById('search-query').innerHTML = `<span class="highlight-query">[${searchQuery}]</span>&nbsp;:`;
 
     function removeSpaces(text) {
-        return text.trim().replace(/\s+/g, '').toLowerCase();
+        return text.replace(/\s+/g, '').toLowerCase();
     }
 
     function stripHtmlTags(text) {
-        return text.replace(/<[^>]*>/g, '').trim();
+        return text.replace(/<[^>]*>/g, '');
     }
 
     if (searchQuery) {
@@ -31,8 +31,8 @@ layout: default
         let hasResults = false;
 
         postItems.forEach(postItem => {
-            const title = removeSpaces(postItem.getAttribute('data-title') || '');
-            const content = stripHtmlTags(postItem.getAttribute('data-content') || '');
+            const title = removeSpaces(postItem.getAttribute('data-title'));
+            const content = removeSpaces(stripHtmlTags(postItem.getAttribute('data-content')));
 
             if (title.includes(cleanedSearchQuery) || content.includes(cleanedSearchQuery)) {
                 postItem.classList.remove('hide');
