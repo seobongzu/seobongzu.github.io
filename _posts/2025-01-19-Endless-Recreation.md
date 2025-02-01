@@ -13,7 +13,7 @@ It was exactly the mod I'd been looking for.
 <br>
 2.  
 However, the way the mod worked was slightly different from what I had in mind.  
-I got some ideas from the original mod's mechanics and created this one with <a href="https://steamcommunity.com/profiles/76561198062265145/myworkshopfiles/?appid=294100" target="_blank">Xercaine</a>'s permission.  
+I got some ideas from the original mod's mechanics and created this one with Xercaine's permission.  
 <br>
 3.  
 Here's what I discovered: There are two types of recreation scenarios.  
@@ -40,4 +40,4 @@ Since this mod only affects Joy gain and decay rates,
 it's compatible with any recreation mod out there.  
 <br>
 8.  
-All of this was made possible thanks to <a href="https://steamcommunity.com/profiles/76561198062265145/myworkshopfiles/?appid=294100" target="_blank">Xercaine</a>'s permission to modify their work. Thank you!  
+All of this was made possible thanks to Xercaine's permission to modify their work. Thank you!  
