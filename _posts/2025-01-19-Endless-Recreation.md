@@ -8,7 +8,7 @@ category: rimworld
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3410477716" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=3410477716</a>  
 <br>
 1.  
-When <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3368214339" target="_blank">Do Recreation When Idle</a> appeared on the Workshop, I couldn't help but shout with excitement.
+When Do Recreation When Idle appeared on the Workshop, I couldn't help but shout with excitement.  
 It was exactly the mod I'd been looking for.  
 <br>
 2.  
