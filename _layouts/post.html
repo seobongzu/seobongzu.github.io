@@ -3,7 +3,7 @@ layout: default
 ---
 <section class="article">
     <article aria-label="article">
-        <header class="article-header">{{ page.title }} [ {{ page.date | date: "%Y.%m.%d." } ]}</header>
+        <header class="article-header">{{ page.title }}{{ page.date | date: " [ %Y.%m.%d. ]" }}</header>
         <div class="content">{{ content }}</div>
     </article>
 </section>
