@@ -12,7 +12,7 @@ category: rimworld
 <p>It was exactly the mod I'd been looking for.</p>
 <br>
 <p>2.</p>
-<p>However, the way the mod worked was slightly different from what I had in mind.</p><
+<p>However, the way the mod worked was slightly different from what I had in mind.</p>
 <p>I got some ideas from the original mod's mechanics and created this one with Xercaine's permission.</p>
 <br>
 <p>3.</p>
