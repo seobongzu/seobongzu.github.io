@@ -4,7 +4,7 @@ title: "Neat Storage"
 date: 2025-02-01
 category: rimworld
 ---
-<img src="https://i.imgur.com/ICgJMc9.png">
+<img src="https://i.imgur.com/n4UdY00.png">
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3416243474" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=3416243474</a>  
 <br>
 <p><b>1.</b></p>
