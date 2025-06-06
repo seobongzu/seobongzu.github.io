@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    {% if page.title and page.title != "seobongzu" %}
+        <title>{{ page.title }} - seobongzu</title>
+    {% else %}
+        <title>seobongzu</title>
+    {% endif %}
+
+    {% if page.description %}
+        <meta name="description" content="{{ page.description }}">
+    {% else %}
+        {% assign excerpt_clean = page.excerpt | strip_html | strip %}
+        {% if excerpt_clean.size > 0 %}
+            <meta name="description" content="{{ excerpt_clean | truncate: 160 }}">
+        {% else %}
+            <meta name="description" content="잡담과 낙서 저장소">
+        {% endif %}
+    {% endif %}
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="seobongzu">
+
+    {% if page.keywords %}
+        <meta name="keywords" content="{{ page.keywords }}, seobongzu, 서봉주">
+    {% else %}
+        <meta name="keywords" content="seobongzu, game, doodle, rimworld, mod, 서봉주, 게임, 낙서, 잡담, 림월드, 모드">
+    {% endif %}
+
+    <meta name="color-scheme" content="light dark">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+    <meta property="og:site_name" content="seobongzu">
+
+    {% if page.image %}
+        <meta property="og:image" content="{{ page.image }}">
+    {% else %}
+        <meta property="og:image" content="https://seobongzu.com/assets/logos/lightLogo.png">
+    {% endif %}
+
+    {% if page.title and page.title != "seobongzu" %}
+        <meta property="og:title" content="{{ page.title }} - seobongzu">
+    {% else %}
+        <meta property="og:title" content="seobongzu">
+    {% endif %}
+
+    {% if page.description %}
+        <meta property="og:description" content="{{ page.description }}">
+    {% else %}
+        {% assign excerpt_clean = page.excerpt | strip_html | strip %}
+        {% if excerpt_clean.size > 0 %}
+            <meta property="og:description" content="{{ excerpt_clean | truncate: 160 }}">
+        {% else %}
+            <meta property="og:description" content="잡담과 낙서 저장소">
+        {% endif %}
+    {% endif %}
+
+    {% if page.layout == 'post' %}
+        <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+        <meta property="article:author" content="seobongzu">
+        {% if page.category %}
+            <meta property="article:section" content="{{ page.category }}">
+        {% endif %}
+    {% endif %}
+
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <link rel="icon" type="image/ico" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicons/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicons/favicon-512x512.png">
+    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+</head>
+
+<body>
+    <header class="header">
+        <h1>seobongzu</h1>
+        <a href="{{ site.baseurl }}/">
+            <img id="logo-img" src="/assets/logos/lightLogo.png" alt="사이트 로고" class="logo">
+        </a>
+        <input type="search" class="search" placeholder="seobongzu" aria-label="검색" id="search-input" autocomplete="off" spellcheck="false">
+        <nav aria-label="카테고리" class="category-list">
+                <ul>
+                    <li><a href="{{ "/about/" | relative_url}}" class="{% if page.category == 'about' %}active{% endif %}" aria-label="About">[about]</a></li>
+                    <li><a href="{{ "/rimworld/" | relative_url}}" class="{% if page.category == 'rimworld' %}active{% endif %}" aria-label="Rimworld">[rimworld]</a></li>
+                    <li><a href="{{ "/image/" | relative_url}}" class="{% if page.category == 'image' %}active{% endif %}"
+                    aria-label="Test">[image]</a></li>            
+                    <li><button id="dark-mode-toggle" aria-label="다크 모드">[◑]</button></li>
+                </ul>
+        </nav>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+    
+    <footer class="copyright">&copy; 2025 seobongzu</footer>
+    <script src="{{ site.baseurl }}/script.js"></script>
+</body>
+
+</html>

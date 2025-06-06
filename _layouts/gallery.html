@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<section class="gallery-container">
+    <div class="gallery-grid">
+        {% assign current_category = page.category %}
+        {% for post in site.posts %}
+        {% if post.categories contains current_category %}
+        <article class="gallery-item">
+            <a href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
+                <div class="image-container">
+                    {% if post.image %}
+                    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+                    <div class="image-overlay"></div>
+                    {% else %}
+                    <span class="no-image">{{ post.title }}</span>
+                    {% endif %}
+                </div>
+            </a>
+        </article>
+        {% endif %}
+        {% endfor %}
+    </div>
+</section>

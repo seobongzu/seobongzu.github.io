@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<section class="contents-list">
+    <ul aria-label="카테고리 목록">
+        {% assign current_category = page.category %}
+        {% for post in site.posts %}
+            {% if post.categories contains current_category %}
+                <li>
+                    <a href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">{{ post.title }}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</section>

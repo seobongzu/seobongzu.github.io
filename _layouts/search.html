@@ -1,0 +1,66 @@
+---
+layout: default
+---
+<section class="contents-list">
+    <ul>
+        <li id="search-query"></li>
+        {% for post in site.posts %}
+            <li class="post-item" data-title="{{ post.title | escape }}" data-content="{{ post.content | escape }}">
+                <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </li>
+        {% endfor %}
+        <li id="no-results-message" style="display: none;">No posts found.</li>
+    </ul>
+</section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const searchQuery = localStorage.getItem('searchQuery') || '';
+        const searchInput = document.getElementById('search-input');
+
+        document.getElementById('search-query').innerHTML = `<span class="weight-bold">Search:&nbsp;</span><span class="highlight-query">${searchQuery}</span>`;
+
+        if (searchInput && searchQuery) {
+            searchInput.placeholder = searchQuery;
+
+            searchInput.addEventListener('blur', function () {
+                if (this.value === '') {
+                    this.placeholder = searchQuery;
+                }
+            });
+        }
+
+        function removeSpaces(text) {
+            return text.replace(/\s+/g, '').toLowerCase();
+        }
+
+        function stripHtmlTags(text) {
+            return text.replace(/<[^>]*>/g, '');
+        }
+
+        if (searchQuery) {
+            const postItems = document.querySelectorAll('.post-item');
+            const cleanedSearchQuery = removeSpaces(searchQuery);
+            let hasResults = false;
+
+            postItems.forEach(postItem => {
+                const title = removeSpaces(postItem.getAttribute('data-title'));
+                const content = removeSpaces(stripHtmlTags(postItem.getAttribute('data-content')));
+
+                if (title.includes(cleanedSearchQuery) || content.includes(cleanedSearchQuery)) {
+                    postItem.classList.remove('hide');
+                    hasResults = true;
+                } else {
+                    postItem.classList.add('hide');
+                }
+            });
+
+            const noResultsMessage = document.getElementById('no-results-message');
+            if (!hasResults) {
+                noResultsMessage.style.display = 'inline-flex';
+            } else {
+                noResultsMessage.style.display = 'none';
+            }
+        }
+    });
+</script>

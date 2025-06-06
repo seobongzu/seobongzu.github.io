@@ -1,0 +1,7 @@
+title: seobongzu
+author: seobongzu
+description: 잡담과 낙서
+
+baseurl: ""
+url: "https://seobongzu.com"
+permalink: /:categories/:title/
