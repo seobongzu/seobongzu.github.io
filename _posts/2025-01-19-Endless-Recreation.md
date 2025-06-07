@@ -7,7 +7,7 @@ keywords: "rimworld, mod, 림월드, 모드"
 image: "https://seobongzu.com/assets/images/rimworld/EndlessRecreation/EndlessRecreation.webp"
 ---
 <iframe src="https://www.youtube-nocookie.com/embed/SU4R6RBrG98?si=nzD0KP-KvhB5DUOV" width=1280px height=720px title="Endless Recreation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<p>1.<br>창작마당에 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3368214339" target="_blank">Do Recreation When Idle</a>이 올라온 걸 보자마자 박수를 쳤다.<br>나는 아주 오랫동안 정착민들이 대기 중에 방황 대신 오락을 하길 바랐는데,<br>드디어 소망이 이루어진 것이다.<br>
+<p><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3410477716" target="_blank">[workshop]</a><br><br>1.<br>나는 창작마당에 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3368214339" target="_blank">Do Recreation When Idle</a>이 올라온 걸 보자마자 박수를 쳤다.<br>아주 오랫동안 정착민들이 대기 중에 방황 대신 오락을 하길 바랐는데,<br>드디어 소망이 이루어진 것이다.<br>
 <br>
 2.<br>모드의 세부적인 작동은 내가 원하던 것과 약간 달랐지만,<br>모드의 핵심 메커니즘에서 아이디어를 얻어 정확히 내가 원하는 모드를 만들 수 있었다.<br>
 <br>
