@@ -4,6 +4,9 @@
     --focus-color: #888;
     --current-color: blue;
     --visited-color: purple;
+    --content-color: rgb(211,211,211);
+    --top-color: rgb(158, 158, 158);
+    --bottom-color: rgb(235, 235, 235);
     --background-color: rgba(247, 247, 247, 1);
     --code-color: #2d2d2d;
     --nt-color: blue;
@@ -19,6 +22,9 @@
     --focus-color: #5d5d5d;
     --current-color: #00ff00;
     --visited-color: #A084CA;
+    --content-color: rgb(27, 27, 27);
+    --top-color: rgb(10, 10, 10);
+    --bottom-color: rgb(53, 53, 53);
     --background-color: #1E1E1E;
     --code-color: #f8f8f2;
     --nt-color: #569cd6;
@@ -152,6 +158,13 @@ li {
     outline: none;
 }
 
+hr {
+    border: 0;
+    border-top: 1px solid var(--top-color);
+    border-bottom: 1px solid var(--bottom-color);
+    height: 0;
+}
+
 .category-list a:hover {
     color: var(--current-color);
     text-decoration: underline;
@@ -159,6 +172,7 @@ li {
 
 .content {
     border-bottom: 1px solid var(--text-color);
+    background-color: var(--content-color);
 }
 
 .contents-list {
