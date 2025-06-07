@@ -172,6 +172,8 @@ hr {
 }
 
 .content {
+    border-left: 1px solid var(--text-color);
+    border-right: 1px solid var(--text-color);
     border-bottom: 1px solid var(--text-color);
     background-color: var(--content-color);
 }
