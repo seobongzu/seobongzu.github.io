@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: rimworld-post
 title: "Endless Recreation"
 date: 2025-01-19
 category: rimworld
