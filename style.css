@@ -321,6 +321,7 @@ iframe {
     width: 100%;
     break-inside: avoid;
     overflow: hidden;
+    margin-bottom: 0;
 }
 
 .gallery-item a {
