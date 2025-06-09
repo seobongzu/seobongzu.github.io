@@ -34,6 +34,10 @@
     --scroll-color: #6d6d6d;
 }
 
+html {
+    background-color: rgb(255, 155, 0);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -45,6 +49,10 @@ body {
     font-family: sans-serif;
     font-size: 0.88rem;
     line-height: 1.55;
+    width: min(max(1280px, 67vw), calc(100% - 1rem));
+    min-height: 100vh;
+    padding-left: 1rem;
+    margin: 0 auto;
 }
 
 .header {
@@ -52,7 +60,7 @@ body {
     top: 0rem;
     width: calc(100% - 1rem);
     color: var(--text-color);
-    padding: 1rem 0 0.15rem 0;
+    padding: 1rem 0 0.25rem 0;
     border-bottom: 1px solid var(--text-color);
 }
 
@@ -172,8 +180,11 @@ hr {
 }
 
 .content {
+    border-left: 1px solid var(--text-color);
+    border-right: 1px solid var(--text-color);
     border-bottom: 1px solid var(--text-color);
     background-color: var(--content-color);
+    padding: 1rem 1rem 0 1rem;
 }
 
 .contents-list {
