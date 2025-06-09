@@ -244,6 +244,11 @@ button:hover {
 
 .download-box a {
     color: var(--current-color);
+    text-decoration: none;
+}
+
+.download-box a:hover {
+    text-decoration: underline;
 }
 
 .download-box a:active {
