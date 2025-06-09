@@ -61,7 +61,6 @@ body {
     width: calc(100% - 1rem);
     color: var(--text-color);
     padding: 1rem 0 0.25rem 0;
-    border-bottom: 1px solid var(--text-color);
 }
 
 .logo {
@@ -180,9 +179,7 @@ hr {
 }
 
 .content {
-    border-left: 1px solid var(--text-color);
-    border-right: 1px solid var(--text-color);
-    border-bottom: 1px solid var(--text-color);
+    border: 1px solid var(--text-color);
     background-color: var(--content-color);
     padding: 1rem 1rem 0 1rem;
 }
@@ -190,7 +187,8 @@ hr {
 .contents-list {
     color: var(--text-color);
     width: calc(100% - 1rem);
-    padding-bottom: 0.2rem;
+    border-top: 1px solid var(--text-color);
+    padding-top: 0.2rem;
 }
 
 .contents-list li {
