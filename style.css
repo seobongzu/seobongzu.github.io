@@ -87,14 +87,6 @@ h1 {
     vertical-align: baseline;
 }
 
-.other-posts {
-    font-weight: bold;
-}
-
-br {
-    line-height: 1;
-}
-
 .search {
     color: var(--text-color);
     width: calc(100% - 6rem);
