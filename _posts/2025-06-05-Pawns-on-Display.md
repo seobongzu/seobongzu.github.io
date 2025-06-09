@@ -9,7 +9,9 @@ image: "https://seobongzu.com/assets/images/rimworld/PawnsOnDisplay/PawnsOnDispl
 <img src="https://seobongzu.com/assets/images/rimworld/PawnsOnDisplay/PawnsOnDisplay.webp" alt="rimworld screenshot" width=443px height=247px>
 <p>
 <hr>
+<div class="half-space"></div>
 <span class="download-box"><a href="https://drive.google.com/file/d/1DLMjicBjItE0cB-_9nbDHDa-5PUy3awq/view?usp=sharing" target="_blank">[download]</a></span>
+<div class="half-space"></div>
 <hr>
 </p>
 <div class="half-space"></div>

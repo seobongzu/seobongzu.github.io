@@ -9,7 +9,9 @@ image: "https://seobongzu.com/assets/images/rimworld/EndlessRecreation/EndlessRe
 <iframe src="https://www.youtube-nocookie.com/embed/SU4R6RBrG98?si=nzD0KP-KvhB5DUOV" width=1280px height=720px title="Endless Recreation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <p>
 <hr>
+<div class="half-space"></div>
 <span class="download-box"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3410477716" target="_blank">[workshop]</a></span>
+<div class="half-space"></div>
 <hr>
 </p>
 <div class="half-space"></div>
