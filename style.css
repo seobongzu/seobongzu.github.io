@@ -261,11 +261,12 @@ button:hover {
 }
 
 .back a {
-    color: var(--current-color);
+    color: var(--text-color);
     text-decoration: none;
 }
 
 .back a:hover {
+    color: var(--current-color);
     text-decoration: underline;
 }
 
@@ -303,6 +304,7 @@ iframe {
     width: 100%;
     height: auto;
     aspect-ratio: 16 / 9;
+    margin-bottom: 1rem;
 }
 
 .gallery-container {
