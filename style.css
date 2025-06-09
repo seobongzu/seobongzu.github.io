@@ -186,7 +186,7 @@ hr {
 .content {
     border: 1px solid var(--text-color);
     background-color: var(--content-color);
-    padding: 1rem 1rem 0 1rem;
+    padding: 1rem;
 }
 
 .contents-list {
@@ -234,11 +234,6 @@ a.active,
 .highlight-query,
 button:hover {
     color: var(--current-color);
-}
-
-.align-right {
-    display: block;
-    text-align: right;
 }
 
 .download-box a {
