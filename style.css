@@ -224,7 +224,6 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-    margin-bottom: 0.5rem;
 }
 
 a.active,
@@ -300,7 +299,6 @@ iframe {
     width: 100%;
     height: auto;
     aspect-ratio: 16 / 9;
-    margin-bottom: 0.5rem;
 }
 
 .gallery-container {
@@ -321,7 +319,6 @@ iframe {
     width: 100%;
     break-inside: avoid;
     overflow: hidden;
-    margin-bottom: 0;
 }
 
 .gallery-item a {
@@ -342,27 +339,6 @@ iframe {
     height: auto;
     display: block;
     transition: transform 0.3s ease;
-}
-
-.image-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    border: 1px solid var(--text-color);
-}
-
-.gallery-item:hover .image-overlay {
-    opacity: 1;
-}
-
-.gallery-item:active .image-overlay {
-    border: 1px solid var(--current-color);
 }
 
 .gallery-item:hover .image-container img {
