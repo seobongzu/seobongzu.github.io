@@ -237,6 +237,20 @@ button:hover {
     border: 1px solid var(--text-color);
 }
 
+.download-box a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.download-box a:hover {
+    color: #121212;
+    background-color: rgb(255, 155, 0);
+}
+
+.download-box a:active {
+    background-color: rgb(200, 120, 0);
+}
+
 .back {
     padding-top: 0.15rem;
 }
