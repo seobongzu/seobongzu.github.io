@@ -56,7 +56,7 @@ image: "https://seobongzu.com/assets/images/rimworld/EndlessRecreation/EndlessRe
 <p>
 7.<br>
 일반적으로 일어날 수 없는 일이지만 재미 90%를 넘기면 정착민이 잠시 방황하게 된다.<br>
-내가 원하는 상황은 아니므로 재미가 90% 이상일 떄의 재미 감소량을 10배로 높였다.
+내가 원하는 상황은 아니므로 재미가 90% 이상일 때의 재미 감소량을 10배로 높였다.
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>

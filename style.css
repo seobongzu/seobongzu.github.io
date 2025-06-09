@@ -256,7 +256,7 @@ button:hover {
 
 .back {
     padding-top: 0.3rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
 }
 
 .back a {
@@ -287,7 +287,7 @@ a:focus,
 .copyright {
     font-size: 0.8rem;
     position: fixed;
-    bottom: 0.5rem;
+    bottom: 0.3rem;
     right: 1rem;
     color: var(--text-color);
     background-color: var(--background-color);
