@@ -189,6 +189,10 @@ hr {
     padding: 1rem;
 }
 
+.content br {
+    line-height: 0.5;
+}
+
 .contents-list {
     color: var(--text-color);
     width: calc(100% - 1rem);
