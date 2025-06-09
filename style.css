@@ -219,6 +219,7 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+    margin-bottom: 1rem;
 }
 
 a.active,
