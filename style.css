@@ -226,6 +226,10 @@ img {
     height: auto;
 }
 
+.content img {
+    margin-bottom: 0.5rem;
+}
+
 a.active,
 .highlight-query,
 button:hover {
@@ -299,6 +303,7 @@ iframe {
     width: 100%;
     height: auto;
     aspect-ratio: 16 / 9;
+    margin-bottom: 0.5rem;
 }
 
 .gallery-container {
