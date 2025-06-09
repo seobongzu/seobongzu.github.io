@@ -311,7 +311,7 @@ iframe {
 
 .gallery-grid {
     column-count: auto;
-    column-width: clamp(170px, 18vw, 600px);
+    column-width: clamp(120px, 12vw, 480px);
     column-fill: balance;
     column-gap: 0.3rem;
 }
