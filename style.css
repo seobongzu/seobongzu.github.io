@@ -189,9 +189,8 @@ hr {
     padding: 1rem;
 }
 
-.content br {
+.half-space {
     height: 0.5rem;
-    display: block;
 }
 
 .contents-list {
