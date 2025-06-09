@@ -15,7 +15,7 @@ image: "https://seobongzu.com/assets/images/rimworld/EndlessRecreation/EndlessRe
 <div class="half-space"></div>
 <p>
 1.<br>
-창작마당에서 Do Recreation When Idle를 보자마자 박수를 쳤다.<br>
+창작마당에서 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3368214339" target="_blank">Do Recreation When Idle</a>를 보자마자 박수를 쳤다.<br>
 예전부터 정착민들이 방황 대신 오락을 하길 바랐는데 드디어 누군가 모드로 만든 것이다.
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
@@ -82,6 +82,6 @@ image: "https://seobongzu.com/assets/images/rimworld/EndlessRecreation/EndlessRe
 <p>
 11.<br>
 처음에는 개인적으로 수정해서 혼자 몰래 쓰려고 했는데<br>
-모드가 너무 만족스러워서 원작자 Xercaine의 허락 아래 (감사합니다!) 창작마당에 업로드했다.<br>
+모드가 너무 만족스러워서 원작자 <a href="https://steamcommunity.com/profiles/76561198062265145/myworkshopfiles/?appid=294100" target="_blank">Xercaine</a>의 허락 아래 (감사합니다!) 창작마당에 업로드했다.<br>
 그리 유명한 모드는 아니지만 누군가는 나처럼 잘 쓰고 있지 않을까?
 </p>
