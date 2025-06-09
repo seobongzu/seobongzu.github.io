@@ -347,7 +347,7 @@ iframe {
 }
 
 .gallery-item:hover .image-container img {
-    transform: scale(1.03);
+    transform: scale(1.05);
 }
 
 .no-image {
