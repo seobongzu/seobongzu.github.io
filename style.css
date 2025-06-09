@@ -309,14 +309,14 @@ iframe {
 .gallery-container {
     border-top: 1px solid var(--text-color);
     max-width: calc(100% - 1rem);
-    padding-top: 0.2rem;
+    padding-top: 0.4rem;
 }
 
 .gallery-grid {
     column-count: auto;
     column-width: clamp(120px, 12vw, 480px);
     column-fill: balance;
-    column-gap: 0.3rem;
+    column-gap: 0.4rem;
 }
 
 .gallery-item {
