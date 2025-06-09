@@ -304,6 +304,7 @@ iframe {
 }
 
 .gallery-container {
+    border-top: 1px solid var(--text-color);
     max-width: calc(100% - 1rem);
     padding-top: 0.2rem;
 }
