@@ -233,6 +233,10 @@ button:hover {
     text-align: right;
 }
 
+.download-box {
+    border: 1px solid var(--text-color);
+}
+
 .back {
     padding-top: 0.15rem;
 }
