@@ -188,7 +188,7 @@ hr {
     color: var(--text-color);
     width: calc(100% - 1rem);
     border-top: 1px solid var(--text-color);
-    padding-top: 0.1rem;
+    padding-top: 0.15rem;
 }
 
 .contents-list li {
@@ -227,8 +227,12 @@ button:hover {
     color: var(--current-color);
 }
 
+.alight-right {
+    text-align: right;
+}
+
 .back {
-    padding-top: 0.1rem;
+    padding-top: 0.15rem;
 }
 
 .back a {

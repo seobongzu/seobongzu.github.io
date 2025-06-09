@@ -3,7 +3,7 @@ layout: default
 ---
 <section class="article">
     <article aria-label="본문">
-        <div class="content">{{ content }}<p>{{ page.date | date: "%Y.%m.%d." }}</p></div>
+        <div class="content">{{ content }}<p><span class="alight-right">{{ page.date | date: "%Y.%m.%d." }}</span></p></div>
     </article>
 </section>
 <section class="back">
@@ -34,7 +34,7 @@ layout: default
             pathParts.pop();
             return pathParts.join('/') + '/';
         }
-        
+
         function goBack() {
             window.location.href = getCurrentCategoryUrl();
         }
