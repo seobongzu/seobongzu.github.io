@@ -6,18 +6,8 @@ layout: default
         <div class="content">{{ content }}<p>{{ page.date | date: "%Y.%m.%d." }}</p></div>
     </article>
 </section>
-<section class="contents-list">
-    <div class="other-posts">Other posts</div>
-    <ul aria-label="목록">
-        {% assign current_category = page.category %}
-        {% for post in site.posts %}
-            {% if post.categories contains current_category and post.title != page.title %}
-                <li>
-                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                </li>
-            {% endif %}
-        {% endfor %}
-    </ul>
+<section class="back">
+    <a href="javascript:void(0)" onclick="goBack()">← Back</a>
 </section>
 
 {% if page.layout == 'post' %}
@@ -34,5 +24,19 @@ layout: default
             });
         }
     });
+
+    function getCurrentCategoryUrl() {
+            const url = window.location.href;
+            const pathParts = url.split('/');
+            if (pathParts[pathParts.length - 1] === '') {
+                pathParts.pop();
+            }
+            pathParts.pop();
+            return pathParts.join('/') + '/';
+        }
+        
+        function goBack() {
+            window.location.href = getCurrentCategoryUrl();
+        }
 </script>
 {% endif %}
