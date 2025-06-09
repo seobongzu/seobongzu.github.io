@@ -234,11 +234,11 @@ button:hover {
 }
 
 .download-box {
-    border: 1px solid var(--text-color);
+    background-color: var(--text-color);
 }
 
 .download-box a {
-    color: var(--text-color);
+    color: var(--background-color);
     text-decoration: none;
 }
 
