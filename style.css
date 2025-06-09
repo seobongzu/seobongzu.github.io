@@ -186,7 +186,7 @@ hr {
 .content {
     border: 1px solid var(--text-color);
     background-color: var(--content-color);
-    padding: 1rem;
+    padding: 1rem 1rem 0.3rem 1rem;
 }
 
 .half-space {
