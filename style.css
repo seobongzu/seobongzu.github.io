@@ -243,12 +243,7 @@ button:hover {
 }
 
 .download-box a {
-    color: var(--text-color);
-    text-decoration: none;
-}
-
-.download-box a:hover {
-    text-decoration: underline;
+    color: var(--current-color);
 }
 
 .download-box a:active {
