@@ -155,10 +155,6 @@ a:focus {
     color: red;
 }
 
-a:visited {
-    color: var(--visited-color);
-}
-
 ul {
     list-style: none;
 }
@@ -287,7 +283,7 @@ a:focus,
 .copyright {
     font-size: 0.8rem;
     position: fixed;
-    bottom: 0.3rem;
+    bottom: 0.35rem;
     right: 1rem;
     color: var(--text-color);
     background-color: var(--background-color);
