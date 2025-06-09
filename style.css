@@ -190,7 +190,8 @@ hr {
 }
 
 .content br {
-    line-height: 0.5;
+    height: 0.5rem;
+    display: block;
 }
 
 .contents-list {
