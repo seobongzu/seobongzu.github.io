@@ -146,8 +146,17 @@ p {
 }
 
 a {
-    color: var(--current-color);
+    color: var(--text-color);
     text-decoration: underline;
+}
+
+a:hover {
+    color: var(--current-color);
+}
+
+a:active,
+a:focus {
+    color: red;
 }
 
 a:visited {
@@ -233,22 +242,18 @@ button:hover {
     text-align: right;
 }
 
-.download-box {
-    background-color: var(--text-color);
-}
-
 .download-box a {
-    color: var(--background-color);
+    color: var(--text-color);
     text-decoration: none;
 }
 
 .download-box a:hover {
-    color: #121212;
-    background-color: rgb(255, 155, 0);
+    text-decoration: underline;
 }
 
 .download-box a:active {
-    background-color: rgb(200, 120, 0);
+    color: #121212;
+    background-color: rgb(255, 155, 0);
 }
 
 .back {
