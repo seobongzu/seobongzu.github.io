@@ -228,7 +228,8 @@ button:hover {
 }
 
 .align-right {
-    text-align: right !important;
+    display: block;
+    text-align: right;
 }
 
 .back {
