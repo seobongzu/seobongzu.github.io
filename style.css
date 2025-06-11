@@ -208,7 +208,7 @@ hr {
 .category-list a {
     color: var(--text-color);
     text-decoration: none;
-    margin-right: 0.1rem;
+    margin-right: 0.05rem;
 }
 
 .contents-list li a {
