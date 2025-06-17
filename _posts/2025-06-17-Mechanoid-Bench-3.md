@@ -8,5 +8,4 @@ image: "https://seobongzu.com/assets/images/rimworld/MechanoidBench3/MechanoidBe
 ---
 <img src="https://seobongzu.com/assets/images/rimworld/MechanoidBench3/MechanoidBench3.webp" alt="Mechanoid Bench 3" width=735px height=369px>
 <img src="https://seobongzu.com/assets/images/rimworld/MechanoidBench3/MechanoidBench.webp" alt="Mechanoid Bench" width=560px height=301px>
-<img src="https://seobongzu.com/assets/images/rimworld/MechanoidBench3/MechaComponent.webp" alt="Mecha Component" width=122px height=119px><img src="https://seobongzu.com/assets/images/rimworld/MechanoidBench3/MechaComponent.webp" alt="Mecha Component" width=122px height=119px><img src="https://seobongzu.com/assets/images/rimworld/MechanoidBench3/MechaComponent.webp" alt="Mecha Component" width=122px height=119px><img src="https://seobongzu.com/assets/images/rimworld/MechanoidBench3/MechaComponent.webp" alt="Mecha Component" width=122px height=119px><img src="https://seobongzu.com/assets/images/rimworld/MechanoidBench3/MechaComponent.webp" alt="Mecha Component" width=122px height=119px>
-<img src="https://seobongzu.com/assets/images/rimworld/MechanoidBench3/MechaShotgun.webp" alt="Mecha Shotgun" width=256px height=100px>
+<img src="https://seobongzu.com/assets/images/rimworld/MechanoidBench3/MechaComponent.webp" alt="Mecha Component" width=122px height=119px>
