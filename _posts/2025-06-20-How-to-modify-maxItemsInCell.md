@@ -37,6 +37,7 @@ I changed it to seobongzu.xml
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
 6.<br>
+</p>
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
@@ -61,6 +62,7 @@ I changed it to seobongzu.xml
 	-->	
 </Patch>
 ```
+<p>
 When you open seobongzu.xml with a text editor, you'll see this content.<br>
 The top code is for <span class="weight-bold">Crate and Pallet</span>, the bottom is for <span class="weight-bold">Corpse dump spot</span>.
 </p>
@@ -68,6 +70,7 @@ The top code is for <span class="weight-bold">Crate and Pallet</span>, the botto
 <p>
 7.<br>
 ```xml
+</p>
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	<!-- Crate and Pallet maxItemsInCell -->
@@ -89,6 +92,7 @@ The top code is for <span class="weight-bold">Crate and Pallet</span>, the botto
 	-->
 </Patch>
 ```
+<p>
 If you want to change Crate and Pallet amounts,<br>
 remove the comments to make it like this.<br>
 If you don't know how, just copy what I do.<br>
