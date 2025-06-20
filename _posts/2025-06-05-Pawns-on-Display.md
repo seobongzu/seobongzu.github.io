@@ -7,13 +7,6 @@ keywords: "rimworld, mod, texture, 림월드, 모드, 텍스쳐"
 image: "https://seobongzu.com/assets/images/rimworld/PawnsOnDisplay/PawnsOnDisplay.webp"
 ---
 <img src="https://seobongzu.com/assets/images/rimworld/PawnsOnDisplay/PawnsOnDisplay.webp" alt="rimworld screenshot" width=443px height=247px>
-<p>
-<hr>
-<div class="half-space"></div>
-<span class="download-box"><a href="https://drive.google.com/file/d/1DLMjicBjItE0cB-_9nbDHDa-5PUy3awq/view?usp=sharing" target="_blank">[download]</a></span>
-<div class="half-space"></div>
-<hr>
-</p>
 <div class="half-space"></div>
 <p>
 1.<br>
@@ -24,4 +17,9 @@ image: "https://seobongzu.com/assets/images/rimworld/PawnsOnDisplay/PawnsOnDispl
 2.<br>
 잘 작동하는 모드지만 아쉬운 점이 하나 있다면 받침대 텍스처가 다소 투박하게 느껴진다는 것이다.<br>
 텍스처를 조금만 손보면 훨씬 보기 좋을 것 같아서 직접 고쳐봤다.
+</p>
+<div class="half-space"></div><hr><div class="half-space"></div>
+<p>
++<br>
+모드로 편입됨.
 </p>
