@@ -69,8 +69,8 @@ The top code is for <span class="weight-bold">Crate and Pallet</span>, the botto
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
 7.<br>
-```xml
 </p>
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	<!-- Crate and Pallet maxItemsInCell -->
