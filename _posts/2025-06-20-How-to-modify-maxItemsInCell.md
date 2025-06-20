@@ -4,7 +4,7 @@ title: "How to modify maxItemsInCell"
 date: 2025-06-20
 category: rimworld
 keywords: "rimworld, mod, patch, Neat Storage, 림월드, 모드, 패치, 니트 스토리지"
-image: "https://seobongzu.com/assets/images/rimworld/MechanoidBench3/MechanoidBench3.webp"
+image: "https://seobongzu.com/assets/images/rimworld/HowToModifyMaxItemsInCell/8.webp"
 ---
 <p>
 1.<br>
@@ -101,7 +101,7 @@ If you don't know how, just copy what I do.<br>
 <p>
 7.<br>
 Type <span class="weight-bold">the number you want</span> in maxItemsInCell and save.<br>
-(ex: <maxItemsInCell>50</maxItemsInCell>)
+(ex: &lt;maxItemsInCell&gt;50&lt;/maxItemsInCell&gt;)
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
@@ -114,7 +114,7 @@ It's working well.
 9.<br>
 <img src="https://seobongzu.com/assets/images/rimworld/HowToModifyMaxItemsInCell/9.webp" alt="Messy image" width=576px height=204px>
 You can change other furniture the same way,<br>
-but if you don't also change the <span class="weight-bold">stackOffset and drawOffset</span>,<br>
+but if you don't also change the <span class="weight-bold">stackOffset</span> and <span class="weight-bold">drawOffset</span>,<br>
 it will look messy in the game.
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
