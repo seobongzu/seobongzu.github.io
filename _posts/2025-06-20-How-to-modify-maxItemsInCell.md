@@ -114,12 +114,12 @@ It's working well.
 9.<br>
 <img src="https://seobongzu.com/assets/images/rimworld/HowToModifyMaxItemsInCell/9.webp" alt="Messy image" width=576px height=204px>
 You can change other furniture the same way,<br>
-but if you don't also change the stackOffset and drawOffset,<br>
+but if you don't also change the <span class="weight-bold">stackOffset and drawOffset</span>,<br>
 it will look messy in the game.
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
 10.<br>
-If you want to learn more about patches,<br>
-check out <a href="https://rimworldwiki.com/wiki/Modding_Tutorials/PatchOperations">Rimworldwiki</a>
+If you want to learn more about <span class="weight-bold">patches</span>,<br>
+check out <a href="https://rimworldwiki.com/wiki/Modding_Tutorials/PatchOperations">Rimworldwiki</a>!
 </p>
