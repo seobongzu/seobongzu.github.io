@@ -9,21 +9,21 @@ image: "https://seobongzu.com/assets/images/rimworld/MechanoidBench3/MechanoidBe
 <p>
 1.<br>
 <img src="https://seobongzu.com/assets/images/rimworld/HowToModifyMaxItemsInCell/1.PNG" alt="Neat Storage folder" width=248px height=144px>
-Open Neat Storage folder<br>
+Open Neat Storage folder.<br>
 (.../SteamLibrary/steamapps/workshop/content/294100/3416243474)
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
 2.<br>
 <img src="https://seobongzu.com/assets/images/rimworld/HowToModifyMaxItemsInCell/2.PNG" alt="Version folder" width=248px height=144px>
-Open your version folder<br>
+Open your version folder.<br>
 (ex: 1.5)
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
 3.<br>
 <img src="https://seobongzu.com/assets/images/rimworld/HowToModifyMaxItemsInCell/3.PNG" alt="Patches folder" width=248px height=64px>
-Open the <span class="weight-bold">Patches</span> folder
+Open the <span class="weight-bold">Patches</span> folder.
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
@@ -31,7 +31,7 @@ Open the <span class="weight-bold">Patches</span> folder
 <img src="https://seobongzu.com/assets/images/rimworld/HowToModifyMaxItemsInCell/4.PNG" alt="Template file" width=248px height=64px>
 Copy and paste <span class="weight-bold">Template.xml</span>,<br>
 then <span class="weight-bold">rename</span> the copied file to whatever you want.<br>
-I changed it to seobongzu.xml<br>
+I changed it to seobongzu.xml.<br>
 (Don't change Template.xml directly)<br>
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
@@ -121,5 +121,5 @@ it will look messy in the game.
 <p>
 10.<br>
 If you want to learn more about patches,<br>
-check out <a href="https://rimworldwiki.com/wiki/Modding_Tutorials/PatchOperations">Modding_Tutorials/PatchOperations</a>
+check out <a href="https://rimworldwiki.com/wiki/Modding_Tutorials/PatchOperations">Rimworldwiki</a>
 </p>
