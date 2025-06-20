@@ -8,35 +8,35 @@ image: "https://seobongzu.com/assets/images/rimworld/MechanoidBench3/MechanoidBe
 ---
 <p>
 1.<br>
+<img src="https://seobongzu.com/assets/images/rimworld/HowToModifyMaxItemsInCell/1.PNG" alt="Neat Storage folder" width=248px height=144px>
 Open Neat Storage folder<br>
 (.../SteamLibrary/steamapps/workshop/content/294100/3416243474)
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
 2.<br>
+<img src="https://seobongzu.com/assets/images/rimworld/HowToModifyMaxItemsInCell/2.PNG" alt="Version folder" width=248px height=144px>
 Open your version folder<br>
 (ex: 1.5)
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
 3.<br>
+<img src="https://seobongzu.com/assets/images/rimworld/HowToModifyMaxItemsInCell/3.PNG" alt="Patches folder" width=248px height=64px>
 Open the <span class="weight-bold">Patches</span> folder
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
 4.<br>
-Copy and paste <span class="weight-bold">Template.xml</span><br>
-(Don't change Template.xml directly)
+<img src="https://seobongzu.com/assets/images/rimworld/HowToModifyMaxItemsInCell/4.PNG" alt="Template file" width=248px height=64px>
+Copy and paste <span class="weight-bold">Template.xml</span>,<br>
+then <span class="weight-bold">rename</span> the copied file to whatever you want.<br>
+I changed it to seobongzu.xml<br>
+(Don't change Template.xml directly)<br>
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
 5.<br>
-<span class="weight-bold">Rename</span> the copied file to whatever you want.<br>
-I changed it to seobongzu.xml
-</p>
-<div class="half-space"></div><hr><div class="half-space"></div>
-<p>
-6.<br>
 </p>
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -68,7 +68,7 @@ The top code is for <span class="weight-bold">Crate and Pallet</span>, the botto
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
-7.<br>
+6.<br>
 </p>
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -99,24 +99,27 @@ If you don't know how, just copy what I do.<br>
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
-8.<br>
-Type <span class="weight-bold">the number you want</span> in maxItemsInCell and save.
+7.<br>
+Type <span class="weight-bold">the number you want</span> in maxItemsInCell and save.<br>
+(ex: <maxItemsInCell>50</maxItemsInCell>)
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
-9.<br>
+8.<br>
+<img src="https://seobongzu.com/assets/images/rimworld/HowToModifyMaxItemsInCell/8.webp" alt="Applied image" width=343px height=659px>
 It's working well.
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
-10.<br>
+9.<br>
+<img src="https://seobongzu.com/assets/images/rimworld/HowToModifyMaxItemsInCell/9.webp" alt="Messy image" width=576px height=204px>
 You can change other furniture the same way,<br>
 but if you don't also change the stackOffset and drawOffset,<br>
 it will look messy in the game.
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
-11.<br>
+10.<br>
 If you want to learn more about patches,<br>
-check out https://rimworldwiki.com/wiki/Modding_Tutorials/PatchOperations
+check out <a href="https://rimworldwiki.com/wiki/Modding_Tutorials/PatchOperations">Modding_Tutorials/PatchOperations</a>
 </p>
