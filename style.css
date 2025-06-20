@@ -225,6 +225,8 @@ hr {
 .article {
     color: var(--text-color);
     width: calc(100% - 1rem);
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 img {
