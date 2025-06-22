@@ -20,3 +20,8 @@ image: "/assets/favicons/favicon-512x512.png"
 [sbz] Vanilla Stuff Colors
 <hr>
 <img src="https://seobongzu.com/assets/images/rimworld/SteamWorkshop/VanillaStuffColors.webp" alt="Vanilla Stuff Colors" width=773px height=777px>
+<hr>
+[sbz] Repair Workbench Retexture
+<hr>
+<img src="https://seobongzu.com/assets/images/rimworld/SteamWorkshop/RepairWorkbench.webp" alt="RepairWorkbench" width=393px height=719px>
+<img src="https://seobongzu.com/assets/images/rimworld/SteamWorkshop/RepairWorkbenchPaintable.webp" alt="Paintable RepairWorkbench" width=863px height=525px>
