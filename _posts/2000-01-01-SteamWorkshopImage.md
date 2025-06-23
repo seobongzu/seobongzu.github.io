@@ -17,11 +17,15 @@ image: "/assets/favicons/favicon-512x512.png"
 <hr>
 <img src="https://seobongzu.com/assets/images/rimworld/SteamWorkshop/NeatStorageImage.webp" alt="Neat Storage" width=719px height=541px>
 <hr>
-[sbz] Vanilla Stuff Colors
-<hr>
-<img src="https://seobongzu.com/assets/images/rimworld/SteamWorkshop/VanillaStuffColors.webp" alt="Vanilla Stuff Colors" width=773px height=777px>
-<hr>
 [sbz] Repair Workbench Retexture
 <hr>
 <img src="https://seobongzu.com/assets/images/rimworld/SteamWorkshop/RepairWorkbench.webp" alt="RepairWorkbench" width=393px height=719px>
 <img src="https://seobongzu.com/assets/images/rimworld/SteamWorkshop/RepairWorkbenchPaintable.webp" alt="Paintable RepairWorkbench" width=863px height=525px>
+<hr>
+[sbz] EPOE Retexture
+<hr>
+<img src="https://seobongzu.com/assets/images/rimworld/SteamWorkshop/EPOE.webp" alt="EPOE" width=393px height=489px>
+<hr>
+[sbz] Vanilla Stuff Colors
+<hr>
+<img src="https://seobongzu.com/assets/images/rimworld/SteamWorkshop/VanillaStuffColors.webp" alt="Vanilla Stuff Colors" width=773px height=777px>
