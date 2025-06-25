@@ -376,7 +376,7 @@ pre {
     max-width: 100%;
     overflow-x: auto;
     box-sizing: border-box;
-    margin-bottom: -0.4rem;
+    margin-bottom: 0.1rem;
     background-color: var(--code-bacgkround);
 }
 
