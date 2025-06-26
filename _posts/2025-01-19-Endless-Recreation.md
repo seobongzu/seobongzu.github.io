@@ -6,7 +6,7 @@ category: rimworld
 keywords: "rimworld, mod, 림월드, 모드"
 image: "https://seobongzu.com/assets/images/rimworld/EndlessRecreation/EndlessRecreation.webp"
 ---
-<iframe src="https://www.youtube-nocookie.com/embed/SU4R6RBrG98?si=nzD0KP-KvhB5DUOV" width=1280px height=720px title="Endless Recreation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/PEVDByjhJZc?si=auaYMaNTY9kto1uz" width=1280px height=720px title="Endless Recreation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <p>
 <hr>
 <div class="half-space"></div>
