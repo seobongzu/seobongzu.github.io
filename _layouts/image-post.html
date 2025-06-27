@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<section class="article">
+    <article aria-label="본문">
+        <div class="content">{{ content }}</div>
+    </article>
+</section>
+<section class="back">
+    <a href="https://seobongzu.com/image/">← Back</a>
+</section>
+
+{% if page.layout == 'rimworld-post' %}
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const searchInput = document.getElementById('search-input');
+        if (searchInput) {
+            const postTitle = "{{ page.title | escape }}";
+            searchInput.placeholder = postTitle;
+            searchInput.addEventListener('blur', function () {
+                if (this.value === '') {
+                    this.placeholder = postTitle;
+                }
+            });
+        }
+    });
+</script>
+{% endif %}
