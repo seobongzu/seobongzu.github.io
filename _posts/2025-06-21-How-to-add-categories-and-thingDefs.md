@@ -122,14 +122,14 @@ I'll use [sbz] Mechanoid Bench 3 as an example.
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
 8.<br>
-<img src="https://seobongzu.com/assets/images/rimworld/HowToAddCategoriesAndThingDefs/modName.PNG" alt="Mod Name" width=649px height=263px>
+<img src="https://seobongzu.com/assets/images/rimworld/HowToAddCategoriesAndThingDefs/modName.PNG" alt="Mod Name" width=649px height=261px>
 Open About.xml in the About folder.<br>
 Enter the <span class="weight-bold">name</span> between &lt;name&gt; and &lt;/name&gt; into <span class="weight-bold">ModName</span>.
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
 9.<br>
-<img src="https://seobongzu.com/assets/images/rimworld/HowToAddCategoriesAndThingDefs/defName.PNG" alt="defName" width=649px height=261px>
+<img src="https://seobongzu.com/assets/images/rimworld/HowToAddCategoriesAndThingDefs/defName.PNG" alt="defName" width=649px height=263px>
 Find the <span class="weight-bold">defName</span> of the ThingCategoryDef or ThingDef you want.
 I'll find and add Mecha Minigun as an example.
 </p>
