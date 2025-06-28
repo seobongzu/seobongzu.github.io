@@ -9,7 +9,7 @@ image: "https://seobongzu.com/assets/images/rimworld/HowToModifyMaxItemsInCell/8
 <p>
 1.<br>
 <img src="https://seobongzu.com/assets/images/rimworld/HowToModifyMaxItemsInCell/1.PNG" alt="Neat Storage folder" width=248px height=144px>
-Open Neat Storage folder.<br>
+Open [sbz] Neat Storage folder.<br>
 (.../SteamLibrary/steamapps/workshop/content/294100/3416243474)
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
