@@ -37,6 +37,7 @@ I changed it to seobongzu.xml.<br>
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
 5.<br>
+</p>
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
@@ -70,11 +71,13 @@ I changed it to seobongzu.xml.<br>
 	-->
 </Patch>
 ```
+<p>
 When you open seobongzu.xml with a text editor, you'll see this content.<br>
 </p>
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
 6.<br>
+</p>
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
@@ -105,6 +108,7 @@ When you open seobongzu.xml with a text editor, you'll see this content.<br>
 	</Operation>
 </Patch>
 ```
+<p>
 First, remove the comments.<br>
 If you don't know how, just copy what I do.
 </p>
@@ -132,6 +136,7 @@ I'll find and add Mecha Minigun as an example.
 <div class="half-space"></div><hr><div class="half-space"></div>
 <p>
 10.<br>
+</p>
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
@@ -155,6 +160,7 @@ I'll find and add Mecha Minigun as an example.
 	</Operation>
 </Patch>
 ```
+<p>
 The completed code will look like this.<br>
 In this example, I'm not adding ThingCategoryDef, so I deleted that part.
 </p>
