@@ -1,8 +1,8 @@
 ---
-layout: image-post
+layout: screenshot-post
 title: "The Witcher 3"
 date: 2026-03-07
-category: image
+category: screenshot
 keywords: "witcher, 위쳐"
 image: "https://seobongzu.com/assets/images/games/witcher/7.webp"
 ---
@@ -18,4 +18,3 @@ image: "https://seobongzu.com/assets/images/games/witcher/7.webp"
 <img src="https://seobongzu.com/assets/images/games/witcher/10.webp" alt="Witcher screenshot 10" width=1600px height=900px>
 <img src="https://seobongzu.com/assets/images/games/witcher/11.webp" alt="Witcher screenshot 11" width=1600px height=900px>
 <img src="https://seobongzu.com/assets/images/games/witcher/12.webp" alt="Witcher screenshot 12" width=1600px height=900px>
-test
