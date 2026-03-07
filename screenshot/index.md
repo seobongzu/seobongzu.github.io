@@ -1,4 +1,4 @@
 ---
 layout: gallery
-category: image
+category: screenshot
 ---
