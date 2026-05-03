@@ -300,7 +300,7 @@ a:focus,
 
 #search-query:hover,
 #no-results-message:hover {
-    border-bottom: none !important;
+    box-shadow: none;
 }
 
 iframe {
