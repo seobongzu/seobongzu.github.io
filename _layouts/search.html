@@ -9,7 +9,7 @@ layout: default
                 <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             </li>
         {% endfor %}
-        <li id="no-results-message" style="display: none;">No posts found.</li>
+        <li id="no-results-message" style="display: none;">검색어를 포함하는 게시물이 없습니다.</li>
     </ul>
 </section>
 
@@ -18,7 +18,7 @@ layout: default
         const searchQuery = localStorage.getItem('searchQuery') || '';
         const searchInput = document.getElementById('search-input');
 
-        document.getElementById('search-query').innerHTML = `<span class="weight-bold">Search:&nbsp;</span><span class="highlight-query">${searchQuery}</span>`;
+        document.getElementById('search-query').innerHTML = `<span class="weight-bold">${searchQuery}&nbsp;</span><span>검색 결과...</span>`;
 
         if (searchInput && searchQuery) {
             searchInput.placeholder = searchQuery;
