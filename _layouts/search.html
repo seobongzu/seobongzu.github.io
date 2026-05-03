@@ -18,7 +18,7 @@ layout: default
         const searchQuery = localStorage.getItem('searchQuery') || '';
         const searchInput = document.getElementById('search-input');
 
-        document.getElementById('search-query').innerHTML = `<span class="weight-bold">${searchQuery}&nbsp;</span><span>검색 결과...</span>`;
+        document.getElementById('search-query').innerHTML = `<span class="highlight-query">${searchQuery}&nbsp;</span><span class="weight-bold">검색 결과...</span>`;
 
         if (searchInput && searchQuery) {
             searchInput.placeholder = searchQuery;
