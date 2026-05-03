@@ -298,8 +298,8 @@ a:focus,
     background-color: var(--background-color);
 }
 
-#search-query,
-#no-results-message {
+#search-query:hover,
+#no-results-message:hover {
     border-bottom: none !important;
 }
 
