@@ -5,10 +5,8 @@
     --current-color: blue;
     --visited-color: purple;
     --content-color: rgb(237, 237, 237);
-    --top-color: rgb(208, 208, 208);
-    --bottom-color: rgb(250, 250, 250);
     --background-color: rgba(247, 247, 247, 1);
-    --code-background: rgb(225, 225, 225);
+    --code-background: rgb(240, 240, 240);
     --code-color: #2d2d2d;
     --nt-color: blue;
     --na-color: rgb(224, 0, 0);
@@ -24,10 +22,8 @@
     --current-color: #00ff00;
     --visited-color: #A084CA;
     --content-color: rgb(35, 35, 35);
-    --top-color: rgb(20, 20, 20);
-    --bottom-color: rgb(53, 53, 53);
     --background-color: #1E1E1E;
-    --code-background: rgb(45, 45, 45);
+    --code-background: rgb(25,25,25);
     --code-color: #f8f8f2;
     --nt-color: #569cd6;
     --na-color: #9cdcfe;
