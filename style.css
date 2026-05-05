@@ -74,8 +74,15 @@ body {
 }
 
 h1 {
-    visibility: hidden;
     position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
     pointer-events: none;
 }
 
