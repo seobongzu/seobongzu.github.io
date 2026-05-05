@@ -235,6 +235,7 @@ img {
 }
 
 .content img {
+    background-color: var(--content-color);
     border: 1px solid var(--text-color);
 }
 
@@ -315,6 +316,7 @@ iframe {
     width: 100%;
     height: auto;
     aspect-ratio: 16 / 9;
+    border: 1px solid var(--text-color);
 }
 
 .gallery-container {
