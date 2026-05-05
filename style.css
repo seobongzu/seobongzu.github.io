@@ -183,6 +183,7 @@ hr {
 
 .content {
     border-top: 1px solid var(--text-color);
+    border-bottom: 1px solid var(--text-color);
     padding: 0.25rem 0;
 }
 
@@ -263,7 +264,6 @@ button:hover {
 }
 
 .back {
-    border-top: 1px solid var(--text-color);
     padding-top: 0.25rem;
     margin-bottom: 0.25rem;
 }
