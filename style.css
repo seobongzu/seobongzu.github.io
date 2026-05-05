@@ -171,8 +171,7 @@ li {
 
 hr {
     border: 0;
-    border-top: 1px solid var(--top-color);
-    border-bottom: 1px solid var(--bottom-color);
+    border-top: 1px solid var(--text-color);
     height: 0;
 }
 
