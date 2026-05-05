@@ -58,7 +58,6 @@ body {
 }
 
 .header {
-    position: block;
     top: 0rem;
     width: calc(100% - 1rem);
     color: var(--text-color);
@@ -150,11 +149,6 @@ a {
 
 a:hover {
     color: var(--current-color);
-}
-
-a:active,
-a:focus {
-    color: red;
 }
 
 ul {
@@ -379,7 +373,7 @@ pre {
     overflow-x: auto;
     box-sizing: border-box;
     margin-bottom: 0.1rem;
-    background-color: var(--code-bacgkround);
+    background-color: var(--code-background);
 }
 
 code {
