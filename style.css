@@ -58,6 +58,7 @@ body {
 }
 
 .header {
+    position: relative;
     top: 0rem;
     width: calc(100% - 1rem);
     color: var(--text-color);
@@ -280,6 +281,7 @@ a:focus,
 .back a:active,
 .back a:focus {
     color: red;
+    text-decoration: underline;
 }
 
 .contents-list li.hide {
