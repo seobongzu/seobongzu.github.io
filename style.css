@@ -234,11 +234,6 @@ img {
     height: auto;
 }
 
-.content img {
-    background-color: var(--content-color);
-    border: 1px solid var(--text-color);
-}
-
 .content *+* {
     margin-top: 0.25rem;
 }
@@ -316,7 +311,6 @@ iframe {
     width: 100%;
     height: auto;
     aspect-ratio: 16 / 9;
-    border: 1px solid var(--text-color);
 }
 
 .gallery-container {
