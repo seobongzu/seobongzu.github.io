@@ -229,10 +229,6 @@ img {
     height: auto;
 }
 
-.content *+* {
-    margin-top: 0.25rem;
-}
-
 a.active,
 button:hover {
     color: var(--current-color);
@@ -377,6 +373,11 @@ pre {
     background-color: var(--code-background);
     border: 1px solid var(--text-color);
     padding: 0.25rem;
+    margin: 0;
+}
+
+.content *+* {
+    margin-top: 0.25rem;
 }
 
 code {
