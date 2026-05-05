@@ -374,7 +374,6 @@ pre {
     max-width: 100%;
     overflow-x: auto;
     box-sizing: border-box;
-    margin-bottom: 0.1rem;
     background-color: var(--code-background);
     border: 1px solid var(--text-color);
     padding: 0.25rem;
