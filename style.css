@@ -383,11 +383,11 @@ pre {
     margin-top: 0.25rem;
 }
 
-.content img + hr {
-    margin-top: -0.25rem;
+.content p:has(img)+hr {
+    margin-top: 0;
 }
 
-.content>img:last-child {
+.content p:has(img):last-child {
     margin-bottom: -0.25rem;
 }
 
