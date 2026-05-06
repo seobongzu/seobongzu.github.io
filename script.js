@@ -16,7 +16,7 @@ searchInput.addEventListener('keydown', (event) => {
             localStorage.setItem('searchQuery', searchQuery);
             window.location.href = `/search/`;
         } else {
-            window.location.href = '/';
+            searchInput.blur();
         }
     }
 });
@@ -32,7 +32,7 @@ const logoDark = '/assets/logos/darkLogo.png';
 const setTheme = (theme) => {
     const isDark = theme === 'dark';
 
-    body.classList.toggle('dark-mode', isDark);
+    document.documentElement.classList.toggle('dark-mode', isDark);
     logoImg.src = isDark ? logoDark : logoLight;
 
     localStorage.setItem('theme', theme);

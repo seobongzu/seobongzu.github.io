@@ -15,7 +15,7 @@
     --scroll-color: #777;
 }
 
-.dark-mode {
+html.dark-mode {
     --text-color: #E5E5E5;
     --hover-color: #a1a1a1;
     --focus-color: #5d5d5d;
@@ -222,7 +222,7 @@ hr {
     color: var(--text-color);
     width: calc(100% - 1rem);
     word-wrap: break-word;
-    word-break: break-all;
+    word-break: keep-all;
 }
 
 img {

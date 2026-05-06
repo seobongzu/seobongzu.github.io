@@ -74,6 +74,12 @@
     <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicons/favicon-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicons/favicon-512x512.png">
     <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+
+    <script>
+    if (localStorage.getItem('theme') === 'dark') {
+        document.documentElement.classList.add('dark-mode');
+    }
+    </script>
 </head>
 
 <body>
