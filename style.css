@@ -231,6 +231,11 @@ img {
     height: auto;
 }
 
+.imgInline {
+    display: inline-block;
+    vertical-align: top;
+}
+
 a.active,
 button:hover {
     color: var(--current-color);
