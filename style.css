@@ -233,6 +233,7 @@ img {
 
 .imgInline {
     display: inline-block;
+    vertical-align: middle;
 }
 
 a.active,
