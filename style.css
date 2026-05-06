@@ -278,12 +278,15 @@ a:active,
 a:focus,
 .category-list a:active,
 .category-list a:focus,
-.contents-list li a:active,
-.contents-list li a:focus,
 .back a:active,
 .back a:focus {
     color: red;
     text-decoration: underline;
+}
+
+.contents-list li a:active,
+.contents-list li a:focus {
+    color: red;
 }
 
 .contents-list li.hide {
@@ -389,6 +392,14 @@ pre {
 
 .content p:has(img)+hr {
     margin-top: 0;
+}
+
+.content iframe:first-child {
+    margin-top: -0.25rem;
+}
+
+.content p:has(img):first-child {
+    margin-top: -0.25rem;
 }
 
 .content p:has(img):last-child {
