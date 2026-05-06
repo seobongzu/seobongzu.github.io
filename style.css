@@ -278,15 +278,12 @@ a:active,
 a:focus,
 .category-list a:active,
 .category-list a:focus,
+.contents-list li a:active,
+.contents-list li a:focus,
 .back a:active,
 .back a:focus {
     color: red;
     text-decoration: underline;
-}
-
-.contents-list li a:active,
-.contents-list li a:focus {
-    color: red;
 }
 
 .contents-list li.hide {
