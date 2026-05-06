@@ -23,7 +23,6 @@ searchInput.addEventListener('keydown', (event) => {
 
 /* Dark Mode */
 const darkModeToggle = document.getElementById('dark-mode-toggle');
-const body = document.body;
 const logoImg = document.getElementById('logo-img');
 
 const logoLight = '/assets/logos/lightLogo.png';
@@ -42,6 +41,6 @@ const initialTheme = localStorage.getItem('theme') || 'light';
 setTheme(initialTheme);
 
 darkModeToggle.addEventListener('click', () => {
-    const newTheme = body.classList.contains('dark-mode') ? 'light' : 'dark';
+    const newTheme = document.documentElement.classList.contains('dark-mode') ? 'light' : 'dark';
     setTheme(newTheme);
 });
