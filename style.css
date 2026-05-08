@@ -352,7 +352,8 @@ iframe {
 }
 
 .gallery-item:hover .image-container img {
-    transform: scale(1.05);
+    /*transform: scale(1.05);*/
+    outline: 1px solid var(--text-color);
 }
 
 .no-image {
