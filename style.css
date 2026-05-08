@@ -319,16 +319,15 @@ iframe {
 
 .gallery-grid {
     column-count: auto;
-    column-width: clamp(120px, 12vw, 480px);
-    column-fill: balance;
-    column-gap: 0.3rem;
+    column-width: clamp(160px, 18vw, 260px);
+    column-gap: 0.4rem;
 }
 
 .gallery-item {
     display: inline-block;
     width: 100%;
     break-inside: avoid;
-    overflow: hidden;
+    margin-bottom: 0.4rem;
 }
 
 .gallery-item a {
@@ -348,7 +347,6 @@ iframe {
     width: 100%;
     height: auto;
     display: block;
-    transition: transform 0.3s ease;
 }
 
 .gallery-item:hover .image-container img {
