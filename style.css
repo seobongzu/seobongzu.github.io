@@ -349,9 +349,17 @@ iframe {
     display: block;
 }
 
-.gallery-item:hover .image-container img {
-    /*transform: scale(1.05);*/
-    box-shadow: inset 0 0 0 1px var(--text-color);
+.image-container::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border: 1px solid var(--text-color);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.gallery-item:hover .image-container::after {
+    opacity: 1;
 }
 
 .no-image {
