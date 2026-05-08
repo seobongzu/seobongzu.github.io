@@ -293,7 +293,7 @@ a:focus,
 .copyright {
     font-size: 0.8rem;
     position: fixed;
-    bottom: 0.3rem;
+    bottom: 0.25rem;
     right: 1rem;
     color: var(--text-color);
     background-color: var(--background-color);
