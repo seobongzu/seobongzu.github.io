@@ -1,4 +1,4 @@
 ---
-layout: search
+layout: layout-search
 category: search
 ---

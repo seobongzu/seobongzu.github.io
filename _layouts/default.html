@@ -92,7 +92,8 @@
         <nav aria-label="카테고리" class="category-list">
                 <ul>
                     <li><a href="{{ "/about/" | relative_url}}" class="{% if page.category == 'about' %}active{% endif %}" aria-label="About">[about]</a></li>
-                    <li><a href="{{ "/rimworld/" | relative_url}}" class="{% if page.category == 'rimworld' %}active{% endif %}" aria-label="Rimworld">[rimworld]</a></li>    
+                    <li><a href="{{ "/rimworld/" | relative_url}}" class="{% if page.category == 'rimworld' %}active{% endif %}" aria-label="Rimworld">[rimworld]</a></li>
+                    <li><a href="{{ "/image/" | relative_url}}" class="{% if page.category == 'image' %}active{% endif %}" aria-label="Image">[image]</a></li>
                     <li><button id="dark-mode-toggle" aria-label="다크 모드">[◑]</button></li>
                 </ul>
         </nav>

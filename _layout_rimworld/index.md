@@ -1,4 +1,4 @@
 ---
-layout: category
+layout: layout-category
 category: rimworld
 ---
