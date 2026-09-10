@@ -1,0 +1,69 @@
+---
+layout: default
+---
+{% assign cat = page.categories[0] %}
+{% assign own = page.categories[1] %}
+{% assign posts = site.posts | where_exp: "p", "p.categories contains cat" %}
+<section class="article">
+	<article aria-label="Article">
+		<div class="content">
+			<div class="post-title">
+				<h1>{{ page.title | escape }}</h1>
+				<span class="list-date">{{ page.date | date: '%Y.%m.%d' }}</span>
+			</div>
+			{{ content }}
+		</div>
+	</article>
+</section>
+<nav class="back post-nav" aria-label="Previous and next posts" data-url="{{ page.url }}" data-category="{{ cat }}" data-sub="{{ own }}">
+	<div class="post-nav-stack"></div>
+</nav>
+<script id="post-index" type="application/json">[{% for p in posts %}{"u":{{ p.url | jsonify }},"d":"{{ p.date | date: '%Y-%m-%dT%H:%M:%S' }}","s":{{ p.categories[1] | jsonify }},"t":{{ p.title | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>
+
+<script>
+	const nav = document.querySelector('.post-nav');
+	const posts = JSON.parse(document.getElementById('post-index').textContent);
+	const order = localStorage.getItem('sortOrder') || 'newest';
+	const here = nav.dataset.url;
+	const cat = nav.dataset.category;
+	const own = nav.dataset.sub;
+	const tab = localStorage.getItem('tab/' + cat) === 'all' ? 'all' : own;
+
+	if (tab === 'all') {
+		document.querySelectorAll('header .category-list li.sub a').forEach(function (a) {
+			const isHere = a.getAttribute('href') === '/' + cat + '/';
+			a.classList.toggle('active', isHere);
+			if (isHere) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
+		});
+	}
+
+	const visible = posts.filter(function (p) { return tab === 'all' || !own || p.s === own; });
+	visible.sort(function (a, b) {
+		const d = a.d.localeCompare(b.d);
+		const t = posts.indexOf(a) - posts.indexOf(b);
+		return order === 'oldest' ? (d || -t) : (-d || t);
+	});
+	const i = visible.findIndex(function (p) { return p.u === here; });
+	const current = visible[i];
+	const stack = nav.querySelector('.post-nav-stack');
+
+	function row(post, label, here, above) {
+		const div = document.createElement('div');
+		div.className = 'post-nav-row';
+		const span = document.createElement('span');
+		span.className = 'post-nav-label';
+		span.textContent = here ? '현재 글:' : label ? (above === (order !== 'oldest') ? '다음 글:' : '이전 글:') : '';
+		const text = document.createElement(here ? 'span' : 'a');
+		if (here) text.className = 'post-nav-here'; else text.href = post.u;
+		text.textContent = post.t;
+		div.appendChild(span);
+		div.appendChild(text);
+		stack.appendChild(div);
+	}
+
+	const above = visible.slice(Math.max(0, i - 1), i);
+	const below = visible.slice(i + 1, i + 2);
+	above.forEach(function (p, k) { row(p, k === above.length - 1, false, true); });
+	row(current, false, true);
+	below.forEach(function (p, k) { row(p, k === 0, false, false); });
+</script>

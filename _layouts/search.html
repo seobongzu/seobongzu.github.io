@@ -1,0 +1,75 @@
+---
+layout: default
+---
+<section class="contents-list">
+	<ul>
+		<li id="search-query"></li>
+		{% for post in site.posts %}
+			<li class="post-item">
+				<span class="list-date">{{ post.date | date: '%Y.%m.%d' }}</span>
+				<a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+			</li>
+		{% endfor %}
+		<li id="no-results-message" style="display: none;">검색어를 포함하는 게시물이 없습니다.</li>
+	</ul>
+</section>
+
+<script>
+	(function () {
+		const searchQuery = localStorage.getItem('searchQuery') || '';
+		addEventListener('pageshow', function () {
+			Object.keys(localStorage).filter(key => key.startsWith('tab/')).forEach(key => localStorage.removeItem(key));
+		});
+		const searchInput = document.getElementById('search-input');
+
+		const queryLine = document.getElementById('search-query');
+		const querySpan = document.createElement('span');
+		querySpan.className = 'highlight-query';
+		querySpan.textContent = searchQuery + ' ';
+		const labelSpan = document.createElement('span');
+		labelSpan.className = 'weight-bold';
+		labelSpan.textContent = '검색 결과...';
+		queryLine.append(querySpan, labelSpan);
+
+		if (searchInput && searchQuery) {
+			searchInput.placeholder = searchQuery;
+
+			document.addEventListener('DOMContentLoaded', function () {
+				searchInput.addEventListener('blur', function () {
+					if (this.value === '') {
+						this.placeholder = searchQuery;
+					}
+				});
+			});
+		}
+
+		function removeSpaces(text) {
+			return text.replace(/\s+/g, '').toLowerCase();
+		}
+
+		if (searchQuery) {
+			const postItems = Array.from(document.querySelectorAll('.post-item'));
+			const byUrl = new Map(postItems.map(li => [li.querySelector('a').getAttribute('href'), li]));
+			const cleanedSearchQuery = removeSpaces(searchQuery);
+			const message = document.getElementById('no-results-message');
+			postItems.forEach(li => li.classList.add('hide'));
+
+			fetch('/search.json').then(response => response.json()).then(posts => {
+				let hasResults = false;
+
+				posts.forEach(post => {
+					const li = byUrl.get(post.u);
+					if (!li) return;
+					const hit = removeSpaces(post.t).includes(cleanedSearchQuery) || removeSpaces(post.c).includes(cleanedSearchQuery);
+					li.classList.toggle('hide', !hit);
+					if (hit) hasResults = true;
+				});
+
+				message.style.display = hasResults ? 'none' : 'inline-flex';
+			}).catch(() => {
+				message.textContent = '검색 데이터를 불러오지 못했습니다.';
+				message.style.display = 'inline-flex';
+			});
+		}
+	})();
+</script>

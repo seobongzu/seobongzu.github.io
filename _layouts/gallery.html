@@ -1,0 +1,82 @@
+---
+layout: default
+---
+<section class="gallery-container">
+	<div class="gallery-grid" id="gallery">
+		{% assign tab = page.subcategory %}
+		{% for post in site.posts %}
+		{% if post.categories contains page.category %}
+		{% if tab == nil or post.categories contains tab %}
+		<article class="gallery-item" data-date="{{ post.date | date: '%Y-%m-%dT%H:%M:%S' }}">
+			<a href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}">
+				<div class="image-container">
+					{% if post.image %}
+					<img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" loading="lazy"{% if post.image_width %} width="{{ post.image_width }}" height="{{ post.image_height }}"{% endif %}>
+					{% else %}
+					<span class="no-image">{{ post.title | escape }}</span>
+					{% endif %}
+				</div>
+			</a>
+		</article>
+		{% endif %}
+		{% endif %}
+		{% endfor %}
+	</div>
+</section>
+
+<script>
+	(function () {
+		const grid = document.getElementById('gallery');
+		const items = Array.from(grid.children);
+		let columns = 0;
+
+		function ratio(item) {
+			const img = item.querySelector('img');
+			if (!img) return 1;
+			const w = img.getAttribute('width') || img.naturalWidth;
+			const h = img.getAttribute('height') || img.naturalHeight;
+			return w && h ? h / w : 1;
+		}
+
+		function layout() {
+			const order = localStorage.getItem('sortOrder') || 'newest';
+			const sorted = items.slice().sort(function (a, b) {
+				const d = a.dataset.date.localeCompare(b.dataset.date);
+				const t = items.indexOf(a) - items.indexOf(b);
+				return order === 'oldest' ? (d || -t) : (-d || t);
+			});
+			const minWidth = 240;
+			const gap = parseFloat(getComputedStyle(grid).columnGap) || 4;
+			columns = Math.max(2, Math.floor((grid.clientWidth + gap) / (minWidth + gap)));
+			const columnWidth = (grid.clientWidth - gap * (columns - 1)) / columns;
+			const heights = [];
+			const cols = [];
+			grid.classList.add('js');
+			grid.innerHTML = '';
+			for (let i = 0; i < columns; i++) {
+				const col = document.createElement('div');
+				col.className = 'gallery-col';
+				grid.appendChild(col);
+				cols.push(col);
+				heights.push(0);
+			}
+			sorted.forEach(function (item) {
+				let k = 0;
+				for (let i = 1; i < columns; i++) if (heights[i] < heights[k]) k = i;
+				cols[k].appendChild(item);
+				heights[k] += ratio(item) * columnWidth + gap;
+			});
+		}
+
+		layout();
+
+		let timer;
+		function schedule() {
+			clearTimeout(timer);
+			timer = setTimeout(layout, 100);
+		}
+		addEventListener('resize', schedule);
+		addEventListener('pageshow', function (event) { if (event.persisted) layout(); });
+		grid.querySelectorAll('img:not([width])').forEach(function (img) { img.addEventListener('load', schedule); });
+	})();
+</script>

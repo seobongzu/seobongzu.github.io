@@ -1,0 +1,5 @@
+_tools/
+_site/
+.jekyll-cache/
+.jekyll-metadata
+desktop.ini

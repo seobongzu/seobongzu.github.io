@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	{% if page.title and page.title != "seobongzu" %}
+	{% assign page_title = page.title | escape | append: " - seobongzu" %}
+	{% else %}
+	{% assign page_title = "seobongzu" %}
+	{% endif %}
+
+	{% assign excerpt_clean = page.excerpt | strip_html | strip %}
+	{% if page.description %}
+	{% assign page_description = page.description | escape %}
+	{% elsif excerpt_clean.size > 0 %}
+	{% assign page_description = excerpt_clean | truncate: 160 | escape %}
+	{% else %}
+	{% assign page_description = "잡담과 낙서 저장소" %}
+	{% endif %}
+
+	<title>{{ page_title }}</title>
+	<meta name="description" content="{{ page_description }}">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="{% if page.category == 'search' %}noindex, follow{% else %}index, follow{% endif %}">
+	<meta name="author" content="seobongzu">
+
+	<meta name="color-scheme" content="light dark">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+	<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+	<meta property="og:site_name" content="seobongzu">
+
+	{% if page.image %}
+	<meta property="og:image" content="{{ site.url }}{{ page.image }}">
+	{% else %}
+	<meta property="og:image" content="{{ site.url }}/assets/logo/light.png">
+	{% endif %}
+
+	<meta property="og:title" content="{{ page_title }}">
+	<meta property="og:description" content="{{ page_description }}">
+
+	{% if page.layout == 'post' %}
+	<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+	<meta property="article:author" content="seobongzu">
+	<meta property="article:section" content="{{ page.categories.first }}">
+	{% endif %}
+
+	<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/logo/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/assets/logo/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/assets/logo/favicon-192x192.png">
+	<link rel="icon" type="image/png" sizes="512x512" href="/assets/logo/favicon-512x512.png">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml">
+	<link rel="stylesheet" href="/style.css">
+
+	<script>
+		if ((localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')) === 'dark') {
+			document.documentElement.classList.add('dark-mode');
+		}
+	</script>
+</head>
+
+<body>
+	{% assign current_category = page.category | default: page.categories.first %}
+	<header class="header">
+		{% unless page.layout == 'post' %}
+		<h1 class="visually-hidden">{{ page.title | default: "seobongzu" | escape }}</h1>
+		{% endunless %}
+		<a href="/" aria-label="Home">
+			<img id="logo-light" src="/assets/logo/light.png" alt="seobongzu logo" class="logo">
+			<img id="logo-dark" src="/assets/logo/dark.png" alt="" class="logo">
+		</a>
+		{% assign subs = site.subcategories[current_category] %}
+		{% assign current_sub = page.subcategory | default: page.categories[1] | default: 'all' %}
+		<input type="search" class="search" placeholder="seobongzu" aria-label="Search" id="search-input" autocomplete="off"
+			spellcheck="false">
+		<nav aria-label="Categories" class="category-list">
+			<ul>
+				{% assign menu = "about,rimworld,image" | split: "," %}
+				{% for cat in menu %}
+				{% assign cat_subs = site.subcategories[cat] %}
+				{% if cat == current_category and cat_subs %}
+				<li><a href="/{{ cat }}/" class="active" aria-label="{{ cat | capitalize }}">[<span class="name">{{ cat }}</span>:</a></li>
+				<li class="sub"><a href="/{{ cat }}/" class="{% if current_sub == 'all' %}active{% endif %}"{% if current_sub == 'all' %} aria-current="page"{% endif %} aria-label="All">all</a></li>
+				{% for sub in cat_subs %}
+				<li class="sub"><a href="/{{ cat }}/{{ sub }}/" class="{% if current_sub == sub %}active{% endif %}"{% if current_sub == sub %} aria-current="page"{% endif %}
+						aria-label="{{ sub | capitalize }}">{{ sub }}</a>{% if forloop.last %}<span class="close" aria-hidden="true">]</span>{% endif %}</li>
+				{% endfor %}
+				{% else %}
+				<li><a href="/{{ cat }}/" class="{% if cat == current_category %}active{% endif %}"{% if cat == current_category %} aria-current="page"{% endif %} aria-label="{{ cat | capitalize }}">[<span class="name">{{ cat }}</span>]</a></li>
+				{% endif %}
+				{% endfor %}
+				<li><button id="dark-mode-toggle" aria-label="Toggle theme">[◑]</button></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		{{ content }}
+	</main>
+
+	{% assign this_year = site.time | date: "%Y" %}
+	{% if page.category == "about" %}
+	<footer class="copyright">&copy; 2025{% if this_year != "2025" %}–{{ this_year }}{% endif %} seobongzu</footer>
+	{% endif %}
+	<script src="/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+---
+layout: default
+---
+{% assign tab = page.subcategory %}
+<section class="contents-list">
+	<button id="sort-toggle" class="sort list-sort">date <span aria-hidden="true">▾</span><span class="visually-hidden">최신순</span></button>
+	<ul aria-label="Posts" id="post-list" data-category="{{ page.category }}" data-tab="{{ tab | default: 'all' }}">
+		{% for post in site.posts %}
+		{% if post.categories contains page.category %}
+		{% if tab == nil or post.categories contains tab %}
+		<li class="post-item" data-date="{{ post.date | date: '%Y-%m-%dT%H:%M:%S' }}">
+			<span class="list-date">{{ post.date | date: '%Y.%m.%d' }}</span>
+			<a href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}">{{ post.title | escape }}</a>
+		</li>
+		{% endif %}
+		{% endif %}
+		{% endfor %}
+	</ul>
+</section>
+
+<script>
+	const list = document.getElementById('post-list');
+	const toggle = document.getElementById('sort-toggle');
+	const items = Array.from(list.querySelectorAll('.post-item'));
+	let order = localStorage.getItem('sortOrder') || 'newest';
+
+	addEventListener('pageshow', function () {
+		localStorage.setItem('tab/' + list.dataset.category, list.dataset.tab);
+		order = localStorage.getItem('sortOrder') || 'newest';
+		render();
+	});
+
+	function render() {
+		const sorted = items.slice().sort(function (a, b) {
+			const d = a.dataset.date.localeCompare(b.dataset.date);
+			const t = items.indexOf(a) - items.indexOf(b);
+			return order === 'oldest' ? (d || -t) : (-d || t);
+		});
+		sorted.forEach(function (li) { list.appendChild(li); });
+		toggle.querySelector('[aria-hidden]').textContent = order === 'oldest' ? '▴' : '▾';
+		toggle.querySelector('.visually-hidden').textContent = order === 'oldest' ? '오래된순' : '최신순';
+	}
+
+	render();
+
+	toggle.addEventListener('click', function () {
+		order = order === 'oldest' ? 'newest' : 'oldest';
+		localStorage.setItem('sortOrder', order);
+		render();
+	});
+</script>

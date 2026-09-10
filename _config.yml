@@ -1,0 +1,17 @@
+title: seobongzu
+author: seobongzu
+description: 잡담과 낙서
+
+url: "https://seobongzu.com"
+timezone: Asia/Seoul
+permalink: /:categories/:title/
+subcategories:
+  rimworld: [mod, guide]
+
+exclude: [README.md, LICENSE, desktop.ini]
+
+defaults:
+  - scope:
+      path: _posts
+    values:
+      layout: post
