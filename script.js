@@ -52,3 +52,39 @@ if (darkModeToggle) {
 		setTheme(newTheme);
 	});
 }
+
+/* Copy Button */
+const copyIcon = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1" shape-rendering="crispEdges" aria-hidden="true"><rect x="6.5" y="2.5" width="7" height="7"></rect><rect x="2.5" y="6.5" width="7" height="7" fill="var(--code-background)"></rect></svg>';
+const copiedIcon = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1" shape-rendering="crispEdges" aria-hidden="true"><path d="M3.5 8.5 6.5 11.5 12.5 5.5"></path></svg>';
+
+document.querySelectorAll('div.highlight').forEach((block) => {
+	const code = block.querySelector('pre code');
+	if (!code) return;
+
+	const copyButton = document.createElement('button');
+	copyButton.type = 'button';
+	copyButton.className = 'copy-button';
+	copyButton.innerHTML = copyIcon;
+	copyButton.setAttribute('aria-label', 'Copy code');
+
+	let resetTimer;
+	copyButton.addEventListener('click', async () => {
+		try {
+			await navigator.clipboard.writeText(code.textContent.replace(/\n$/, ''));
+			copyButton.innerHTML = copiedIcon;
+			copyButton.setAttribute('aria-label', 'Copied');
+			copyButton.classList.remove('failed');
+		} catch {
+			copyButton.setAttribute('aria-label', 'Copy failed');
+			copyButton.classList.add('failed');
+		}
+		clearTimeout(resetTimer);
+		resetTimer = setTimeout(() => {
+			copyButton.innerHTML = copyIcon;
+			copyButton.setAttribute('aria-label', 'Copy code');
+			copyButton.classList.remove('failed');
+		}, 375);
+	});
+
+	block.appendChild(copyButton);
+});
