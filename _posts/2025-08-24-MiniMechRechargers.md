@@ -2,7 +2,7 @@
 title: "Mini Mech Rechargers"
 date: 2025-08-24
 category: [rimworld, mod]
-image: "/assets/images/rimworld/MiniMechRechargers0.webp"
+image: "/assets/images/rimworld/MiniMechRechargers.webp"
 ---
 <img src="/assets/images/rimworld/MiniMechRechargers1.webp" alt="Mini Mech Rechargers" width="547" height="385" loading="lazy">
 
