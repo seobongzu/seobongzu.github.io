@@ -1,5 +1,5 @@
 ---
-title: "[Retexture] Human Power Generator"
+title: "[Retexture] Rimsenal Bench Retexture"
 date: 2021-11-30
 category: [rimworld, mod]
 image: "/assets/images/rimworld/Rimsenal.webp"
