@@ -1,5 +1,5 @@
 ---
-title: "[Retexture] Rimsenal Bench Retexture"
+title: "[Retexture] Rimsenal Bench"
 date: 2021-11-30
 category: [rimworld, mod]
 image: "/assets/images/rimworld/Rimsenal.webp"
