@@ -1,5 +1,5 @@
 ---
-title: "BioReactor Retexture"
+title: "[Retexture] BioReactor"
 date: 2021-10-03
 category: [rimworld, mod]
 image: "/assets/images/rimworld/BioReactor.webp"

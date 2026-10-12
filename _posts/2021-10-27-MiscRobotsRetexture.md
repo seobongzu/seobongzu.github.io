@@ -1,5 +1,5 @@
 ---
-title: "Misc. Robots Retexture"
+title: "[Retexture] Misc. Robots"
 date: 2021-10-27
 category: [rimworld, mod]
 image: "/assets/images/rimworld/Robots.webp"

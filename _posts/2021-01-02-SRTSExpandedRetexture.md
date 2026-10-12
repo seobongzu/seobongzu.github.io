@@ -1,5 +1,5 @@
 ---
-title: "SRTS Expanded Retexture"
+title: "[Retexture] SRTS Expanded"
 date: 2021-01-02
 category: [rimworld, mod]
 image: "/assets/images/rimworld/SRTSExpanded.webp"

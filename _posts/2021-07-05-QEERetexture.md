@@ -1,5 +1,5 @@
 ---
-title: "QEE Retexture"
+title: "[Retexture] QEE"
 date: 2021-07-05
 category: [rimworld, mod]
 image: "/assets/images/rimworld/QEE.webp"

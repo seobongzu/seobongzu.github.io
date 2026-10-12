@@ -1,5 +1,5 @@
 ---
-title: "Quarry Retexture"
+title: "[Retexture] Quarry"
 date: 2022-04-17
 category: [rimworld, mod]
 image: "/assets/images/rimworld/Quarry.webp"

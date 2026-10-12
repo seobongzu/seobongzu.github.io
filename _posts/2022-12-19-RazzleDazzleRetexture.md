@@ -1,5 +1,5 @@
 ---
-title: "RazzleDazzle Retexture"
+title: "[Retexture] RazzleDazzle"
 date: 2022-12-19
 category: [rimworld, mod]
 image: "/assets/images/rimworld/RazzleDazzle.webp"

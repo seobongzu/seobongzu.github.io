@@ -1,5 +1,5 @@
 ---
-title: "Misc. Training Retexture"
+title: "[Retexture] Misc. Training"
 date: 2022-01-22
 category: [rimworld, mod]
 image: "/assets/images/rimworld/Training.webp"

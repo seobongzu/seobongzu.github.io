@@ -1,5 +1,5 @@
 ---
-title: "QualityBuilder Retexture"
+title: "[Retexture] QualityBuilder"
 date: 2021-10-27
 category: [rimworld, mod]
 image: "/assets/images/rimworld/QualityBuilder.webp"

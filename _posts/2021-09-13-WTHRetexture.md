@@ -1,5 +1,5 @@
 ---
-title: "What the Hack?! Retexture"
+title: "[Retexture] What the Hack?!"
 date: 2021-09-13
 category: [rimworld, mod]
 image: "/assets/images/rimworld/WTH.webp"

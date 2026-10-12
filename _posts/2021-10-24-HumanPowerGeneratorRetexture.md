@@ -1,5 +1,5 @@
 ---
-title: "Human Power Generator Retexture"
+title: "[Retexture] Human Power Generator"
 date: 2021-10-24
 category: [rimworld, mod]
 image: "/assets/images/rimworld/HumanPowerGenerator.webp"
