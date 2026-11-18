@@ -1,7 +1,7 @@
 ---
 title: "Mini Band Node"
 date: 2026-01-15
-category: [rimworld, mod]
+category: rimworld
 image: "/assets/images/rimworld/MiniBandNode.webp"
 ---
 <img src="/assets/images/rimworld/MiniBandNode1.webp" alt="Mini Band Node" width="515" height="466" loading="lazy">

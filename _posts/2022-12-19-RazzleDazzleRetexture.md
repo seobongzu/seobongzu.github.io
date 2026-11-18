@@ -1,7 +1,7 @@
 ---
 title: "[Retexture] RazzleDazzle"
 date: 2022-12-19
-category: [rimworld, mod]
+category: rimworld
 image: "/assets/images/rimworld/RazzleDazzle.webp"
 ---
 <img src="/assets/images/rimworld/RazzleDazzle.gif" alt="RazzleDazzle" width="597" height="520" loading="lazy">

@@ -1,7 +1,7 @@
 ---
 title: "Mini Wastepack Atomizer"
 date: 2026-02-18
-category: [rimworld, mod]
+category: rimworld
 image: "/assets/images/rimworld/MiniWastepackAtomizer.webp"
 ---
 <img src="/assets/images/rimworld/MiniWastepackAtomizer1.webp" alt="Mini Wastepack Atomizer" width="522" height="616" loading="lazy">

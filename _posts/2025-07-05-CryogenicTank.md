@@ -1,7 +1,7 @@
 ---
 title: "Cryogenic Tank"
 date: 2025-07-05
-category: [rimworld, mod]
+category: rimworld
 image: "/assets/images/rimworld/CryogenicTank.webp"
 ---
 <img src="/assets/images/rimworld/CryogenicTank1.webp" alt="Cryogenic Tanks" width="570" height="579" loading="lazy">

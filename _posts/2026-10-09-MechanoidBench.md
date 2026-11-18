@@ -1,7 +1,7 @@
 ---
 title: "Mechanoid Bench"
 date: 2026-10-09
-category: [rimworld, mod]
+category: rimworld
 image: "/assets/images/rimworld/MechanoidBench.webp"
 ---
 <img src="/assets/images/rimworld/MechanoidBench1.webp" alt="Mechanoid Bench" width="646" height="536" loading="lazy">

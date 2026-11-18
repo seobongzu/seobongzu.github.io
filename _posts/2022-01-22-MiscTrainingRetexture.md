@@ -1,7 +1,7 @@
 ---
 title: "[Retexture] Misc. Training"
 date: 2022-01-22
-category: [rimworld, mod]
+category: rimworld
 image: "/assets/images/rimworld/Training.webp"
 ---
 <img src="/assets/images/rimworld/Training.gif" alt="Training dummy" width="616" height="262" loading="lazy">

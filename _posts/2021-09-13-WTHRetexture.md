@@ -1,7 +1,7 @@
 ---
 title: "[Retexture] What the Hack?!"
 date: 2021-09-13
-category: [rimworld, mod]
+category: rimworld
 image: "/assets/images/rimworld/WTH.webp"
 ---
 <img src="/assets/images/rimworld/WTH.gif" alt="What the Hack?!" width="650" height="503" loading="lazy">

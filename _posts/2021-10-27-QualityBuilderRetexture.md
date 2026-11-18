@@ -1,7 +1,7 @@
 ---
 title: "[Retexture] QualityBuilder"
 date: 2021-10-27
-category: [rimworld, mod]
+category: rimworld
 image: "/assets/images/rimworld/QualityBuilder.webp"
 ---
 <img src="/assets/images/rimworld/QualityBuilder1.webp" alt="QualityBuilder Icons" width="728" height="545" loading="lazy">

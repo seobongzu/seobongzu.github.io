@@ -1,7 +1,7 @@
 ---
 title: "[Retexture] QEE"
 date: 2021-07-05
-category: [rimworld, mod]
+category: rimworld
 image: "/assets/images/rimworld/QEE.webp"
 ---
 <img src="/assets/images/rimworld/QEE.gif" alt="QEE" width="604" height="458" loading="lazy">

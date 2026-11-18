@@ -1,7 +1,7 @@
 ---
 title: "[Retexture] Rimsenal Bench"
 date: 2021-11-30
-category: [rimworld, mod]
+category: rimworld
 image: "/assets/images/rimworld/Rimsenal.webp"
 ---
 <img src="/assets/images/rimworld/Rimsenal.gif" alt="Rimsenal benchs" width="717" height="356" loading="lazy">

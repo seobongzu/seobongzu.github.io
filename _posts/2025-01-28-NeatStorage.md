@@ -1,7 +1,7 @@
 ---
 title: "Neat Storage"
 date: 2025-01-28
-category: [rimworld, mod]
+category: rimworld
 image: "/assets/images/rimworld/NeatStorage.webp"
 ---
 <img src="/assets/images/rimworld/NeatStorage1.webp" alt="Neat Storage" width="687" height="577" loading="lazy">

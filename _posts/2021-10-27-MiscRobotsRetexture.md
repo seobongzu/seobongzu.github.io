@@ -1,7 +1,7 @@
 ---
 title: "[Retexture] Misc. Robots"
 date: 2021-10-27
-category: [rimworld, mod]
+category: rimworld
 image: "/assets/images/rimworld/Robots.webp"
 ---
 <img src="/assets/images/rimworld/Robots.gif" alt="Robots" width="750" height="318" loading="lazy">

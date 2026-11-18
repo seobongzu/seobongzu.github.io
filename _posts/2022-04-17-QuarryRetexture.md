@@ -1,7 +1,7 @@
 ---
 title: "[Retexture] Quarry"
 date: 2022-04-17
-category: [rimworld, mod]
+category: rimworld
 image: "/assets/images/rimworld/Quarry.webp"
 ---
 <img src="/assets/images/rimworld/Quarry.gif" alt="Quarry" width="691" height="625" loading="lazy">

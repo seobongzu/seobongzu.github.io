@@ -6,7 +6,6 @@ url: "https://seobongzu.com"
 timezone: Asia/Seoul
 permalink: /:categories/:title/
 subcategories:
-  rimworld: [mod, guide]
 
 exclude: [README.md, LICENSE, desktop.ini]
 

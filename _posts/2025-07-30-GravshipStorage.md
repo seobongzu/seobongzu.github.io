@@ -1,7 +1,7 @@
 ---
 title: "Gravship Storage"
 date: 2025-07-30
-category: [rimworld, mod]
+category: rimworld
 image: "/assets/images/rimworld/GravshipStorage.webp"
 ---
 <img src="/assets/images/rimworld/GravshipStorage1.webp" alt="Gravship Shelves" width="745" height="599" loading="lazy">

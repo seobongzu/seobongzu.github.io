@@ -1,7 +1,7 @@
 ---
 title: "[Retexture] Repair Workbench"
 date: 2021-09-30
-category: [rimworld, mod]
+category: rimworld
 image: "/assets/images/rimworld/RepairWorkbench.webp"
 ---
 <img src="/assets/images/rimworld/RepairWorkbench1.webp" alt="Repair Workbenchs" width="390" height="512" loading="lazy">

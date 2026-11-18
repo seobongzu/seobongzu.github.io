@@ -1,7 +1,7 @@
 ---
 title: "Vanilla Stuff Colors"
 date: 2025-02-08
-category: [rimworld, mod]
+category: rimworld
 image: "/assets/images/rimworld/VanillaStuffColors.webp"
 ---
 <img src="/assets/images/rimworld/VanillaStuffColors1.webp" alt="Paint palette before and after" width="633" height="298" loading="lazy">

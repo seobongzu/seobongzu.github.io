@@ -1,7 +1,7 @@
 ---
 title: "[Retexture] SRTS Expanded"
 date: 2021-01-02
-category: [rimworld, mod]
+category: rimworld
 image: "/assets/images/rimworld/SRTSExpanded.webp"
 ---
 <img src="/assets/images/rimworld/SRTSExpanded.gif" alt="SRTS Ships" width="643" height="653" loading="lazy">
